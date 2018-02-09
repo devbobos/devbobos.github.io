@@ -56,7 +56,7 @@ twitter_url: https://twitter.com/devbobos
 telegram_url:
 
 # Google Analytics Tracking ID goes here:
-google_analytics: "UA-90666704-2"
+google_analytics: UA-90666704-2
 # Comment System
 disqus_shortname: "devbobos"
 
