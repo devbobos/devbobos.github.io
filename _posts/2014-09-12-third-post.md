@@ -3,6 +3,7 @@ title: Third Post
 author: Chris
 layout: post
 icon: fa-lightbulb-o
+comments: true
 ---
 See the icon?
 
@@ -27,3 +28,4 @@ Amet illum at sea, est autem fabulas eu, quod nonumes lobortis no sed. Has ei fu
 An nobis instructior eos, eam libris aperiam corrumpit ex. Case omnesque eu per. Et vix iisque tritani. Autem posidonium eu vis, sit et mutat brute. Usu ne postulant intellegat omittantur, mazim saperet adolescens mel at.
 
 Nam at velit percipit detraxit, quas modus mea ut. Ius an natum doctus vivendum. Quo at debet vidisse viderer, mollis eripuit ex nec. Sed ut choro saepe, sale augue sea et. His nemore dolorum mnesarchum at, ius an adipisci aliquando, laoreet placerat ea ius.
+{% include comments.html %}
