@@ -1,5 +1,7 @@
 ---
 layout: default
+comments: true
+# other options
 ---
 {%- include header.html -%}
 
@@ -13,6 +15,7 @@ layout: default
 				{%- if page.subtitle -%}<p>{{- page.subtitle -}}</p>{%- endif -%}
 			</header>
 	    {{- content -}}
+			{% include connent.html %}
 	  </div>
 	</article>
 </div>
