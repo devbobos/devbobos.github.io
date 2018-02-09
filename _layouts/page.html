@@ -1,7 +1,5 @@
 ---
 layout: default
-comments: true
-# other options
 ---
 {%- include header.html -%}
 
@@ -12,10 +10,9 @@ comments: true
 	  <div class="container">
 			<header>
 				<h2>{{- page.title -}}</h2>
-				{%- if page.subtitle -%}<p>{{- page.subtitle -}}</p>{%- endif -%}
+				{%- if page.subtitle -%}<p>{{- page.subtitle -}}</p>{%- endif -%} <p><a href="https://devbobos.github.io{{ page.url }}#disqus_thread">0 Comments</a></p>
 			</header>
 	    {{- content -}}
-			{% include comment.html %}
 	  </div>
 	</article>
 </div>
