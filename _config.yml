@@ -45,7 +45,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://devbobos.github.io" # the base hostname & protocol for your site
 
 # Social settings
-facebook_url: https://www.facebook.com/bokwang.son
+facebook_url:
 github_url: https://github.com/devbobos
 googleplus_url:
 instagram_url:
@@ -56,9 +56,9 @@ twitter_url: https://twitter.com/devbobos
 telegram_url:
 
 # Google Analytics Tracking ID goes here:
-google_analytics: UA-90666704-2
+google_analytics: "UA-90666704-2"
 # Comment System
-disqus_shortname: devbobos
+disqus_shortname: "devbobos"
 
 # The following settings are NECESSARY for the Prologue theme to run:
 remote_theme: jekyll-theme-prologue
