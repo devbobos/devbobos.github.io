@@ -45,14 +45,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://devbobos.github.io" # the base hostname & protocol for your site
 
 # Social settings
-facebook_url:https://www.facebook.com/bokwang.son
-github_url:https://github.com/devbobos
+facebook_url: "https://www.facebook.com/bokwang.son"
+github_url: "https://github.com/devbobos"
 googleplus_url:
 instagram_url:
 linkedin_url:
 pinterest_url:
 slack_url:
-twitter_url:https://twitter.com/devbobos
+twitter_url: "https://twitter.com/devbobos"
 
 # Google Analytics Tracking ID goes here:
 google_analytics:UA-90666704-2
