@@ -1,9 +1,9 @@
 ---
-title: Application
+title: Apps
 subtitle: a list of books I read
 layout: "page"
 icon: fa-cube
-order: 2
+order: 3
 ---
 
 I love books! Here are some I'm reading now:
