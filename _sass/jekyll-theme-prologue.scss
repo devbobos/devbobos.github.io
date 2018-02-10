@@ -6,13 +6,25 @@
 @import 'rouge-github';
 @font-face {
   font-family: 'Noto Sans';
-  src: url('../fonts/Noto-Sans-regular.eot');
-  src: url('../fonts/Noto-Sans-regular.eot?#iefix') format('embedded-opentype'),
+	font-weight: 600;
+  src: url('../fonts/Noto-Sans-Regular.eot');
+  src: url('../fonts/Noto-Sans-Regular.eot?#iefix') format('embedded-opentype'),
        local('Noto Sans'),
-       local('Noto-Sans-regular'),
-       url('../fonts/Noto-Sans-regular.woff2') format('woff2'),
-       url('../fonts/Noto-Sans-regular.woff') format('woff'),
-       url('../fonts/Noto-Sans-regular.oft') format('opentype'),
+       local('NotoSans-Regular'),
+       url('../fonts/NotoSans-Regular.woff2') format('woff2'),
+       url('../fonts/NotoSans-Regular.woff') format('woff'),
+       url('../fonts/NotoSans-Regular.oft') format('opentype'),
+}
+@font-face {
+  font-family: 'Noto Sans';
+	font-weight: 300;
+  src: url('../fonts/NotoSans-Light.eot');
+  src: url('../fonts/NotoSans-Light.eot?#iefix') format('embedded-opentype'),
+       local('Noto Sans Light'),
+       local('NotoSans-Light'),
+       url('../fonts/NotoSans-Light.woff2') format('woff2'),
+       url('../fonts/NotoSans-Light.woff') format('woff'),
+       url('../fonts/NotoSans-Light.oft') format('opentype'),
 }
 /*
 	Prologue by HTML5 UP
