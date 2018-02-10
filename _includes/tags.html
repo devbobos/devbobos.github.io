@@ -1,5 +1,7 @@
+{% if page.tags %}
 <div class="post-tags">
   <span class="icon fa-tag"></span>
+  {% endif %}
   {% if post %}
     {% assign tags = post.tags %}
   {% else %}
@@ -10,3 +12,4 @@
   {% endfor %}
 </div>
 <br/>
+{% endif %}
