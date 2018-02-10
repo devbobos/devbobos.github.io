@@ -11,8 +11,8 @@ layout: default
 			<header>
 				<h2>{{- page.title -}}</h2>
 				<p>{% if page.author %}{{ page.author }}, {% endif %}{{- page.date | date_to_long_string -}},   <a href="{{ site.url }}{{ page.url }}#disqus_thread">Comments</a></p>
+				{% include tags.html %}
 			</header>
-			{% include tags.html %}
 	    {{- content -}}
 	  </div>
 	</article>
