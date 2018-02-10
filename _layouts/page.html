@@ -10,8 +10,9 @@ layout: default
 	  <div class="container">
 			<header>
 				<h2>{{- page.title -}}</h2>
-				{%- if page.subtitle -%}<p>{{- page.subtitle -}}</p>{%- endif -%} | <p><a href="{{ site.url }}{{ page.url }}#disqus_thread">0 Comments</a></p>
+				{%- if page.subtitle -%}<p>{{- page.subtitle -}}|<a href="{{ site.url }}{{ page.url }}#disqus_thread">0 Comments</a></p>{%- endif -%}
 			</header>
+			{% include tags.html %}
 			{{- content -}}
 	  </div>
 	</article>
