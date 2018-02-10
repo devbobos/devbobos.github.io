@@ -5,14 +5,6 @@
 @import url("font-awesome.min.css");
 @import 'rouge-github';
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
-:lang(ko) {
- font-family: 'Noto Sans KR', sans-serif;
-}
-/* 일본어 */
-:lang(ja) {
- font-family: 'Noto Sans JP', sans-serif;
-}
 
 /*
 	Prologue by HTML5 UP
@@ -170,14 +162,14 @@
 		background: rgba(0, 0, 0, 0.05);
 		border-color: rgba(0, 0, 0, 0.2);
 		border-radius: 4px;
-		font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Tersminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+		font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
 		font-size: 0.9em;
 		padding: 0.25em 0.325em;
 	}
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+		font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
 		font-size: 0.9em;
 		tab-size: 4;
 		margin: 0 0 2em 0;
