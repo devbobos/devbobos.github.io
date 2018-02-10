@@ -1,5 +1,5 @@
 ---
-title: Apps
+title: 앱
 subtitle: bobos가 만든 앱
 layout: "page"
 icon: fa-cube
