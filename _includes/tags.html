@@ -1,4 +1,4 @@
-<img class="icon fa-tag"/>
+<span class="icon fa-tag">
 <div class="post-tags">
   {% if post %}
     {% assign tags = post.tags %}
@@ -9,4 +9,5 @@
   <a href="/tags/#{{tag|slugize}}">{{tag}}</a>{% unless forloop.last %},{% endunless %}
   {% endfor %}
 </div>
+</span>
 <br/>
