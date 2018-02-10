@@ -4,8 +4,10 @@
 @charset "UTF-8";
 @import url("font-awesome.min.css");
 @import 'rouge-github';
-@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
-
+@font-face {
+      font-family: "Noto Sans KR";
+      src: url("http://fonts.googleapis.com/earlyaccess/notosanskr.css");
+    }
 /*
 	Prologue by HTML5 UP
 	html5up.net | @ajlkn
