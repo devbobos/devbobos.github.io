@@ -5,9 +5,16 @@
 @import url("font-awesome.min.css");
 @import 'rouge-github';
 @font-face {
-      font-family: "Noto Sans KR";
-      src: url("http://fonts.googleapis.com/earlyaccess/notosanskr.css");
-    }
+  font-family: 'Noto Sans';
+  font-style: normal;
+  src: url('../fonts/Noto-Sans-regular.eot');
+  src: url('../fonts/Noto-Sans-regular.eot?#iefix') format('embedded-opentype'),
+       local('Noto Sans'),
+       local('Noto-Sans-regular'),
+       url('../fonts/Noto-Sans-regular.woff2') format('woff2'),
+       url('../fonts/Noto-Sans-regular.woff') format('woff'),
+       url('../fonts/Noto-Sans-regular.oft') format('opentype'),
+}
 /*
 	Prologue by HTML5 UP
 	html5up.net | @ajlkn
@@ -65,7 +72,7 @@
 
 	body {
 		background: #fff;
-		font-family: 'Noto Sans KR', sans-serif;
+		font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
@@ -78,7 +85,6 @@
 	}
 
 	input, textarea, select {
-		font-family: 'Noto Sans KR', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
