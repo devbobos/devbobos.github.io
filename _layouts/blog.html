@@ -15,8 +15,7 @@ layout: default
 		{%- endcapture -%}
 		{%- capture _subtitle -%}
 			{% if _post.author -%}{{- _post.author }} | {% endif %}
-			{{- _post.date | date_to_long_string -}}
-			<a href="https://xho95.github.io{{ _post.url }}#disqus_thread">0 Comments</a>
+			{{- _post.date | date_to_long_string -}} | <a href="https://xho95.github.io{{ _post.url }}#disqus_thread">0 Comments</a>
 		{%- endcapture -%}
 		{%- capture _excerpt -%}<p>{{- _post.excerpt | strip_html | truncatewords: 100 -}}</p>{%- endcapture -%}
 		{%- capture _link -%}<a href="{{- _post.url | absolute_url -}}">read more</a>{%- endcapture -%}
