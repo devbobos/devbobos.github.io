@@ -16,7 +16,7 @@ layout: default
 		{%- capture _subtitle -%}
 			{% if _post.author -%}{{- _post.author }} | {% endif %}
 			{{- _post.date | date_to_long_string -}}
-			|   <a href="{{ site.url }}{{ _post.url }}#disqus_thread">Comments</a>
+			<a href="{{ site.url }}{{ _post.url }}#disqus_thread">  |  Comments</a>
 		{%- endcapture -%}
 		{%- capture _excerpt -%}<p>{{- _post.excerpt | strip_html | truncatewords: 100 -}}</p>{%- endcapture -%}
 		{%- capture _link -%}<a href="{{- _post.url | absolute_url -}}">read more</a>{%- endcapture -%}
