@@ -63,4 +63,7 @@ disqus_shortname: "devbobos"s
 # The following settings are NECESSARY for the Prologue theme to run:
 remote_theme: jekyll-theme-prologue
 collections: [sections]
-collections: [apps]
+collections:
+  apps:
+    output: true
+    permalink: /_apps/:path/
