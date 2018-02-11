@@ -256,7 +256,6 @@
 	}
 
 /* Image */
-
 	.image {
 		display: inline-block;
 		border: 0;
@@ -276,7 +275,9 @@
 				height: 48px;
 			}
 		}
-
+    &.circle {
+			border-radius: 50%;
+		}
 		&.fit {
 			display: block;
 			width: 100%;
