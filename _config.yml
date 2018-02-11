@@ -58,8 +58,8 @@ telegram_url:
 # Google Analytics Tracking ID goes here:
 google_analytics: UA-90666704-2
 # Comment System
-disqus_shortname: "devbobos"
+disqus_shortname: "devbobos"s
 
 # The following settings are NECESSARY for the Prologue theme to run:
 remote_theme: jekyll-theme-prologue
-collections: [sections]
+collections: [sections,apps]

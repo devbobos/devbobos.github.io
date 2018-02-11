@@ -1,6 +1,6 @@
 ---
 title: 어플리케이션
-layout: apps
+layout: "apps"
 icon: fa-cube
 order: 3
 ---
