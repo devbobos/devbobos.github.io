@@ -24,9 +24,8 @@ order: 4
     {% for post in site.tags[tag_name] %}
     {%- assign _icon = post.icon | default: 'fa-file' -%}
     <div class="archive-item">
-      <span class="icon {{ _icon }}">
-        <h4><a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a></h4>
-      </span>
+      <h4 class="icon {{ _icon }}"></h4>
+      <h4><a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a></h4>
     </div>
     {% endfor %}
   </div>
