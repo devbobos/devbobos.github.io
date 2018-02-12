@@ -13,7 +13,7 @@ order: 4
   </span>
 {% endfor %}
 </div>
-<br><br><br>
+<br>
 <hr>
 <div id="archives">
 {% for tag in site.tags %}
