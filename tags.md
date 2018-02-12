@@ -4,7 +4,6 @@ layout: "page"
 icon: fa-tag
 order: 4
 ---
-
 <div class="tag-cloud">
 {% for tag in site.tags %}
   <span>
@@ -14,7 +13,8 @@ order: 4
   </span>
 {% endfor %}
 </div>
-
+<br><br><br>
+<hr>
 <div id="archives">
 {% for tag in site.tags %}
   <div class="archive-group">
@@ -22,8 +22,9 @@ order: 4
     <h3 id="#{{ tag_name | slugize }}">{{ tag_name }}</h3>
     <a name="{{ tag_name | slugize }}"></a>
     {% for post in site.tags[tag_name] %}
+    {%- assign _icon = post.icon | default: 'fa-file' -%}
     <div class="archive-item">
-      <span class="icon {{ _post.icon }}">
+      <span class="icon {{ _icon }}">
         <h4><a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a></h4>
       </span>
     </div>
