@@ -19,7 +19,7 @@
             <span class="icon {{ _icon }}">{{- _title -}}</span>
           </a></li>
         {%- elsif _page.url -%}
-          <li><a href="{{- _page.url | absolute_url -}}" id="{{- _page.id -}}-link">
+          <li><a href="{{- _page.url | absolute_url -}}" id="{{- _slug -}}-link">
             <span class="icon {{ _icon }}">{{- _title -}}</span>
           </a></li>
         {%- else -%}
@@ -34,7 +34,7 @@
         {%- assign _title = _sect.title | default: _sect.layout | default: 'Untitled' -%}
         {%- assign _slug = _title | slugify -%}
         {%- assign _icon = _sect.icon | default: 'fa-file' -%}
-        <li><a href="#{{- _sect.id -}}" id="{{- _sect.id -}}-link" class="scrolly"><span class="icon {{ _icon }}">{{- _title -}}</span></a></li>
+        <li><a href="#{{- _slug  -}}" id="{{- _slug -}}-link" class="scrolly"><span class="icon {{ _icon }}">{{- _title -}}</span></a></li>
       {%- endfor -%}
     {%- endunless -%}
   </ul>
