@@ -22,9 +22,11 @@ order: 4
     <h3 id="#{{ tag_name | slugize }}">{{ tag_name }}</h3>
     <a name="{{ tag_name | slugize }}"></a>
     {% for post in site.tags[tag_name] %}
-    <article class="archive-item">
+    {%- assign _icon = _post.icon | default: 'fa-link' -%}
+    <div class="archive-item">
+      <span class="icon {{ _icon }}"></span>
       <h4><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h4>
-    </article>
+    </div>
     {% endfor %}
   </div>
 {% endfor %}
