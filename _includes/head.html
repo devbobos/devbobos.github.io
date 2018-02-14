@@ -19,6 +19,15 @@
   <title>{{- _page_title -}}</title>
   <meta name="description" content="{{- _page_description -}}" />
   <meta name="author" content="{{- site.author -}}" />
+  <meta name="apple-mobile-web-app-title" content="bobos의 블로그" />
+  <meta charset="utf-8"/>
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="bobos의 블로그">
+  <meta name="twitter:url" content="{{- page.url | absolute_url -}}">
+  <meta name="twitter:image" content="{{- site.avatar | absolute_url -}}">
+  <meta name="twitter:description" content="{{- _page_description -}}"/>
 
   <!-- Open Graph -->
   <meta property="og:title" content="bobos의 블로그" />
@@ -28,8 +37,12 @@
   <meta property="og:site_name" content="{{- site.title | escape -}}" />
   <meta property="og:description" content="{{- _page_description -}}" />
 
+  <!-- Content-Type -->
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+
   <!-- Styles -->
-  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!--[if lte IE 8]><script src="{{- 'assets/js/ie/html5shiv.js' | relative_url -}}" defer></script><![endif]-->
   <link rel="stylesheet" href="{{- 'assets/css/main.css' | relative_url -}}" />
