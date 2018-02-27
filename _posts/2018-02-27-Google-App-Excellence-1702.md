@@ -57,7 +57,7 @@ tags:
 <p>임성혁</p>
 <ul>
 <li>평점은 다운로드 수와 직결한다</li>
-<li>메테리얼 디자인을 생활화하자 #</li>
+<li>메테리얼 디자인을 생활화하자</li>
 <li>구글에서 제공하는 메테리얼 아이콘 사용 권장</li>
 <li>단말기의 다양성을 고려하여 개발할것</li>
 <li>Manifest.xml의 supports screen 건들지 말것 -> 스토어에서 검색이 되지 않는다!</li>
@@ -93,11 +93,19 @@ tags:
 
 <h2>추가로 나왔던 질문사항들</h2>
 Q) Runtime Permission 체크가 UX를 해치는데 없어질 가능성은 없는지?
+<br>
 A) 없다. 보안 이슈에 대처하여 오히려 더 강화될 예정이다
 <br>
 Q) 타 업체에서 인스톨하여 다운로드 수를 높이는 것에 대해서 어떻게 대처해야하나?
+<br>
 A) 현재도 구글 내부적으로 조치를 하고 있으며, 높은 확률로 비정상적인 경로로 설치가 될 경우 설치 횟수에서 차감되도록 조치 중이다.<br>
+<br>
 Q) 유사 경쟁 앱에 대해서 어떻게 대처해야하나?
+<br>
 A) 카피캣은 구글에서도 자체적으로 제재를 가하고 있다.
 
+<h2>참고자료</h2>
+구글 Meterial 아이콘 <https://github.com/google/material-design-icons>
+구글 Meterial 가이드라인 <https://material.io/guidelines/>
+구글 PlayConsole <https://play.google.com/store/apps/details?id=com.google.android.apps.playconsole>
 {% include comments.html %}
