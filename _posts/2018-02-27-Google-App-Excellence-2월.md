@@ -31,12 +31,12 @@ tags:
 <li>개발자가 더욱 효율적으로 운영 개발할수 있도록하는 리소스 최적화</li>
 </ul>
 <h3>결론</h3>
-<p>이 목록을 신경쓸것!</p>
 <ul>
 <li>디자인</li>
 <li>개발</li>
 <li>배포</li>
 </ul>
+<p>이 목록을 신경쓸것!</p>
 <h2>안드로이드 앱의 시작 - 개발자 콘솔</h2>
 <p>임형준, 양찬석</p>
 <ul>
@@ -48,7 +48,7 @@ tags:
 </ul>
 <h3>결론</h3>
 <ul>
-<li>StoreListingExperiments 알아볼것
+<li>StoreListingExperiments 알아볼것</li>
 <li>GooglePlay Developer Console APK를 다운해서 리뷰 확인할것</li>
 <li>Crash Report 적용할것</li>
 <li>App Security 대처할것</li>
