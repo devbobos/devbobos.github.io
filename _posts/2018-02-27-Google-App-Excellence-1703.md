@@ -63,6 +63,7 @@ tags:
 ## 개발자가 마케터에게 알려주는 Firebase Marketing 활용 방법
 ### 마케팅의 중요 순서
 - CPI < ROI < LTV
+
 ### 권장사항
 - Google Analytics는 웹기반 고전 솔루션이므로 Firebase Analytics로 갈아탈것
 - Firebase Analytics는 기본적으로 16개의 이벤트를 제공, 추가할 수 있음
