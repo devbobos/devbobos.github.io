@@ -8,7 +8,7 @@ tags:
 <img src="{{ 'assets/images/2018-02-27/google.png' | relative_url }}" alt="google" style="width:100%;">
 작년 2월부터 구글캠퍼스 서울에서 진행한 Google App Excellence Program 에 가서 들었던 내용을 정리하려고 한다. 그 당시 별일이 없었을 경우에 한해 꼬박꼬박 참석하였고 당장 필요하다기 보다는 시간을 들여 하나하나 해봐야하는 내용이었기에 이렇게 정리해놓는것이 도움이 될듯하다.
 강의는 대게 3개 정도의 섹션으로 나뉘어져 보통 각자 다른 사람이 발표를 하고 모든 섹션이 끝난 뒤에는 각자 미처 물어보지 못한 질문을 개인적으로 물어보거나 혹은 개발자들끼리 모여서 자기소개를 해가며 Networking 시간을 보내는 것으로 진행되었다. 덤으로 섹션 중간중간 쉬는 시간에는 간혹 커피와 쿠키들이 제공되기도 하고 Networking 시간에는 무조건으로 명성높은 구글의 간식들이 제공된다. 참고로 2월 세미나에서는 참치 까나페와 스낵, 피자, 맥주 등이 제공 되었다.<br><br>
-<img src="{{ 'assets/images/stickers/cheers.gif' | relative_url }}" alt="sticker"  align="middle"><br>
+<img src="{{ 'assets/images/stickers/cheers.gif' | relative_url }}" alt="sticker" class="image centered"><br>
 (맥주는 어메이징 브루잉 컴패니라고 처음 보는 곳이었는데 맛있었다 맥주 맛좀 아는 구글 성님)
 
 이하 내용은 세미나에서 진행한 내용이다
