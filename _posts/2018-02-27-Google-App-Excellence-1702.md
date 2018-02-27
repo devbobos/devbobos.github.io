@@ -105,7 +105,7 @@ Q) 유사 경쟁 앱에 대해서 어떻게 대처해야하나?
 A) 카피캣은 구글에서도 자체적으로 제재를 가하고 있다.
 
 <h2>참고자료</h2>
-구글 Meterial 아이콘 <https://github.com/google/material-design-icons><br>
-구글 Meterial 가이드라인 <https://material.io/guidelines/><br>
-구글 PlayConsole <https://play.google.com/store/apps/details?id=com.google.android.apps.playconsole><br>
+구글 Meterial 아이콘 [#](https://github.com/google/material-design-icons>)<br>
+구글 Meterial 가이드라인 [#](https://material.io/guidelines/)<br>
+구글 PlayConsole [#](https://play.google.com/store/apps/details?id=com.google.android.apps.playconsole)<br>
 {% include comments.html %}
