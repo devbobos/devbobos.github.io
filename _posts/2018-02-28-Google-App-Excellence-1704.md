@@ -64,7 +64,7 @@ tags:
 - TensorFlow를 사용할것
 - TensorFlow는 Google Cloud 데이터를 토대로 이동성, 유연성을 가진 서비스를 제공한다
 - TensorFlow in mobile을 사용하여 모바일 기기에 머신러닝을 도입할 수 있다!
-- GPU 가속화는 Nvidia 그래픽카드만 지원하므로 Nvidia 그래픽카드를 사서 쓸것 (..)
+- GPU 가속화는 Nvidia 그래픽카드만 지원하므로 해당 그래픽카드를 사서 쓸것 (..)
 
 ### TensorFlow에서 제공해주는 Pre-Trained ML Model
 - Cloud Vision API : 이미지, Face detection, OCR, 음란물, 장소 감지
