@@ -3,7 +3,6 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: "page"
-title: 홈
 icon: fa-home
 order: 1
 auto-header: none
@@ -112,8 +111,6 @@ auto-header: none
     <p style="text-align: left; color: white;">Mobile App Developer</p>
   </div>
 </div>
-<h2>About</h2>
-<hr>
 <br>
 <h2>학력사항</h2>
 <div class="table-wrapper">
