@@ -9,7 +9,7 @@ layout: default
 	<article class="shade-two">
 	  <div class="container">
 			<header>
-				{%- if page.title -%}<h2>{{- page.title -}}</h2>{%- endif -%}
+				{%- if page.auto-header != "none" -%}<h2>{{- page.title -}}</h2>{%- endif -%}
 				{%- if page.subtitle -%}<p>{{- page.subtitle -}}</p>{%- endif -%}
 			</header>
 			{{- content -}}
