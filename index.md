@@ -113,7 +113,7 @@ auto-header: none
   </div>
 </div>
 <br>
-<h2>학력사항</h2>
+## 학력사항
 <div class="table-wrapper">
   <table>
     <tr>
@@ -128,7 +128,7 @@ auto-header: none
 </div>
 <hr>
 <br>
-<h2>개발경험</h2>
+## 개발경험
 <div class="table-wrapper">
   <table>
     <tr>
@@ -153,7 +153,7 @@ auto-header: none
 </div>
 <hr>
 <br>
-<h2>대외활동</h2>
+## 대외활동
 <div class="table-wrapper">
   <table>
     <tr>
@@ -182,7 +182,7 @@ auto-header: none
 </div>
 <hr>
 <br>
-<h2>개발능력</h2>
+## 개발능력
 <div class="table-wrapper">
   <table class="about-table">
     <tbody>
