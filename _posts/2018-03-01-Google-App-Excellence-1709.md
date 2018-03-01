@@ -7,7 +7,6 @@ tags:
 ---
 <img src="{{ 'assets/images/2018-02-27/google.png' | relative_url }}" alt="google" style="width:100%;">
 <br>
-
 2017년 8월 22일에 Android O가 공개되었고, 그에 따라 9월 세미나는 Android O의 업데이트된 기능과 버전 업에 따른 조치 사항에 대한 내용이 주를 이뤘다. 그리고 특히나 가장 충격적이었던 점은 이번 세미나에서 Google이 **Android OS는 쓰면 쓸수록 느려진다** 라는 점을 공식적으로 언급한것이다. 더불어 해당 문제점을 해결하기 위해 Background Process에 제한사항을 엄청 추가했다고 하는데, TargetSDK가 Android O가 아님에도 사용자에 의해서 제한을 걸 수 있다고 하니 필히 눈여겨 봐야할 부분이다.
 
 <img src="{{ 'assets/images/stickers/surprise.gif' | relative_url }}" alt="sticker" class="image centered"><br>
