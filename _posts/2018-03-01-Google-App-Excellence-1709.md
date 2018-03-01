@@ -77,7 +77,7 @@ tags:
 Q) Background로 판단되는 기준이 무엇인지<br>
 A) 화면이 보일때는 Foreground로 판단된다. Content Provider, Service 가동 중에도 마찬가지로 Foreground로 판단된다, Activity 생명주기로 말하자면 onStart부터 OnPause까지 Foreground이며 나머지는 Background 이다.<br>
 Q) 잠금 상태일때 Background Process를 사용하기 위해선 어떻게 해야하나<br>
-A) 반드시 액티비티를 사용해야 하며, **락스크린에 이제 뭔가 띄우는건 불가능하다**<br>
+A) 반드시 액티비티를 사용해야 하며, **락스크린에 뭔가 띄우는건 더이상 불가능하다**<br>
 
 ## 참고자료
 Font in XML [#](https://developer.android.com/guide/topics/ui/look-and-feel/fonts-in-xml.html)<br>
