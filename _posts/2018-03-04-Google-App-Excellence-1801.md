@@ -35,13 +35,14 @@ tags:
 - App Link를 지원하는 테스트 디바이스
 
 ### 프로젝트 구조 변경
-<img src="{{ 'assets/images/2018-03-04/4.png' | relative_url }}" alt="image" style="width:60%;"><br>
 
 - Google 권장
 
-<img src="{{ 'assets/images/2018-03-04/5.png' | relative_url }}" alt="image" style="width:60%;"><br>
+<img src="{{ 'assets/images/2018-03-04/4.png' | relative_url }}" alt="image" style="width:60%;"><br>
 
 - 원티드의 경우
+
+<img src="{{ 'assets/images/2018-03-04/5.png' | relative_url }}" alt="image" style="width:60%;"><br>
 
 ### 프로젝트 세팅
 
