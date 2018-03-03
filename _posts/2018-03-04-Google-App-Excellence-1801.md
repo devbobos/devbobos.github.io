@@ -22,15 +22,15 @@ tags:
 
 - Android Studio 3.0 버전 이상
 
-<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/1.png' | relative_url }}" alt="image"><br></a>
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/1.png' | relative_url }}" alt="image"></a>
 
 - Android Instant App SDK
 
-<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/2.png' | relative_url }}" alt="image"><br></a>
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/2.png' | relative_url }}" alt="image"></a>
 
 - URL 핸들링을 지원하는 App Link
 
-<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/3.png' | relative_url }}" alt="image"><br></a>
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/3.png' | relative_url }}" alt="image"></a>
 
 - App Link를 지원하는 테스트 디바이스
 
@@ -38,37 +38,37 @@ tags:
 
 - Google 권장
 
-<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/4.png' | relative_url }}" alt="image"><br></a>
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/4.png' | relative_url }}" alt="image"></a>
 
 - 원티드의 경우
 
-<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/5.png' | relative_url }}" alt="image"><br></a>
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/5.png' | relative_url }}" alt="image"></a>
 
 ### 프로젝트 세팅
 
 - wanted-feature-base #1 : com.android.library 대신 com.android.feature이 쓰인다
 
-<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/6.png' | relative_url }}" alt="image"><br></a>
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/6.png' | relative_url }}" alt="image"></a>
 
 - wanted-feature-base #2 : Base Feature는 필수적인 것만 사용한다
 
-<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/7.png' | relative_url }}" alt="image"><br></a>
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/7.png' | relative_url }}" alt="image"></a>
 
 - wanted-feature-ia
 
-<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/8.png' | relative_url }}" alt="image"><br></a>
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/8.png' | relative_url }}" alt="image"></a>
 
 - AndroidManifest.xml : Deep Link 방식과 동일하게 작성한다
 
-<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/9.png' | relative_url }}" alt="image"><br></a>
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/9.png' | relative_url }}" alt="image"></a>
 
 - wanted-apk-app
 
-<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/10.png' | relative_url }}" alt="image"><br></a>
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/10.png' | relative_url }}" alt="image"></a>
 
 - wanted-instant-app
 
-<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/11.png' | relative_url }}" alt="image"><br></a>
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/11.png' | relative_url }}" alt="image"></a>
 
 ## 외부 라이브러리 호환성
 - 라이브러리는 최신 버전을 사용해야함
