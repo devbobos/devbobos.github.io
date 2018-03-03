@@ -140,5 +140,5 @@ Google 애드몹 [#](https://www.google.co.kr/admob/)<br>
 Google 인앱 구독 [#](https://developer.android.com/google/play/billing/billing_subscriptions.html?hl=ko)<br>
 
 <img src="{{ 'assets/images/stickers/sleep.gif' | relative_url }}" alt="sticker" class="image centered"><br>
-PS) 12월은 Google The DOs and DON't가 계획되어 있었지만 무산된 관계로 드디어 17년도 Google App Excellence의 모든 포스팅이 완료되었다 ~~18년도 포스팅은 아직 남아있다는게 함정~~
+PS) 12월은 Google The DOs and DON't가 계획되어 있었지만 무산된 관계로 드디어 17년도 Google App Excellence의 모든 포스팅이 완료되었다 ~~18년도 세미나 내용이 아직 남아있다는게 함정~~
 {% include comments.html %}
