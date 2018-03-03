@@ -23,13 +23,13 @@ tags:
 <div class="row">
 <div class="12u 12u$(mobile)">
 <div class="item">
-<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/1.png' | relative_url }}" alt="image"></a>
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/1.png' | relative_url }}" alt="image" style="width:500px;"></a>
 <header>
 <h3>Android Studio 3.0 버전 이상</h3>
 </header>
 </div>
 <div class="item">
-<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/2.png' | relative_url }}" alt="image"></a>
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/2.png' | relative_url }}" alt="image" style="width:500px;"></a>
 <header>
 <h3>Android Instant App SDK</h3>
 </header>
@@ -49,14 +49,14 @@ tags:
 <div class="row">
 <div class="6u 12u$(mobile)">
 <div class="item">
-<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/4.png' | relative_url }}" alt="image"></a>
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/4.png' | relative_url }}" alt="image" style="width:500px;"></a>
 <header>
 <h3>Google 권장</h3>
 </header>
 </div>
 <div class="item">
 <header>
-<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/5.png' | relative_url }}" alt="image"></a>
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/5.png' | relative_url }}" alt="image" style="width:100%;"></a>
 <h3>원티드의 경우</h3>
 </header>
 </div>
