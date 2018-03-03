@@ -50,7 +50,7 @@ tags:
 ## 외부 라이브러리 호환성
 - 라이브러리는 최신 버전을 사용해야함
 <div class="table-wrapper">
-<table>
+  <table>
 			<thead>
 				<tr>
 					<th>사용 가능한 라이브러리</th>
@@ -63,6 +63,7 @@ tags:
 					<td>ButterKnife<br>GreenDAO</td>
 				</tr>
       </tbody>
+    </table>
 </div>
 
 ## 주의사항
