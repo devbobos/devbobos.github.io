@@ -82,7 +82,7 @@ tags:
       </thead>
       <tbody>
         <tr>
-					<td>FirebaseAnalytics(Core)<br>Kotlin+AndroidExtensions<br>Fabric<br>Glide<br>Retrofit<br>ReactiveX<br>RxBinding<br>Timber<br>JUnit<br>Mockito</td>
+					<td>FirebaseAnalytics (Core)<br>Kotlin+AndroidExtensions<br>Fabric<br>Glide<br>Retrofit<br>ReactiveX<br>RxBinding<br>Timber<br>JUnit<br>Mockito</td>
 					<td>ButterKnife<br>GreenDAO</td>
 				</tr>
       </tbody>
