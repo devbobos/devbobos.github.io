@@ -9,7 +9,7 @@ order: 4
   <span>
     <a href="#{{ tag | first | slugize }}">
       {{ tag | first }}
-    </a> &nbsp;&nbsp;
+    </a> &nbsp;
   </span>
 {% endfor %}
 </div>
