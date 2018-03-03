@@ -54,6 +54,8 @@ tags:
 <h3>Google 권장</h3>
 </header>
 </div>
+</div>
+<div class="6u 12u$(mobile)">
 <div class="item">
 <header>
 <a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/5.png' | relative_url }}" alt="image" style="width:100%;"></a>
