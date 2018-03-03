@@ -43,7 +43,7 @@ tags:
 </header>
 </div>
 <div class="item">
-<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/12.png' | relative_url }}" alt="image" style="width:100%;"></a>
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/12.jpg' | relative_url }}" alt="image" style="width:100%;"></a>
 <header>
 <h3>App Link를 지원하는 테스트 디바이스</h3>
 </header>
