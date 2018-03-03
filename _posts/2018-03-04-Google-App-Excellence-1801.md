@@ -22,15 +22,15 @@ tags:
 
 - Android Studio 3.0 버전 이상
 
-<img src="{{ 'assets/images/2018-03-04/1.png' | relative_url }}" alt="image" style="width:60%;"><br>
+<img src="{{ 'assets/images/2018-03-04/1.png' | relative_url }}" alt="image" "><br>
 
 - Android Instant App SDK
 
-<img src="{{ 'assets/images/2018-03-04/2.png' | relative_url }}" alt="image" style="width:60%;"><br>
+<img src="{{ 'assets/images/2018-03-04/2.png' | relative_url }}" alt="image" "><br>
 
 - URL 핸들링을 지원하는 App Link
 
-<img src="{{ 'assets/images/2018-03-04/3.png' | relative_url }}" alt="image" style="width:60%;"><br>
+<img src="{{ 'assets/images/2018-03-04/3.png' | relative_url }}" alt="image" "><br>
 
 - App Link를 지원하는 테스트 디바이스
 
@@ -38,37 +38,37 @@ tags:
 
 - Google 권장
 
-<img src="{{ 'assets/images/2018-03-04/4.png' | relative_url }}" alt="image" style="width:60%;"><br>
+<img src="{{ 'assets/images/2018-03-04/4.png' | relative_url }}" alt="image"><br>
 
 - 원티드의 경우
 
-<img src="{{ 'assets/images/2018-03-04/5.png' | relative_url }}" alt="image" style="width:60%;"><br>
+<img src="{{ 'assets/images/2018-03-04/5.png' | relative_url }}" alt="image"><br>
 
 ### 프로젝트 세팅
 
 - wanted-feature-base #1 : com.android.library 대신 com.android.feature이 쓰인다
 
-<img src="{{ 'assets/images/2018-03-04/6.png' | relative_url }}" alt="image" style="width:60%;"><br>
+<img src="{{ 'assets/images/2018-03-04/6.png' | relative_url }}" alt="image"><br>
 
 - wanted-feature-base #2 : Base Feature는 필수적인 것만 사용한다
 
-<img src="{{ 'assets/images/2018-03-04/7.png' | relative_url }}" alt="image" style="width:60%;"><br>
+<img src="{{ 'assets/images/2018-03-04/7.png' | relative_url }}" alt="image"><br>
 
 - wanted-feature-ia
 
-<img src="{{ 'assets/images/2018-03-04/8.png' | relative_url }}" alt="image" style="width:60%;"><br>
+<img src="{{ 'assets/images/2018-03-04/8.png' | relative_url }}" alt="image"><br>
 
 - AndroidManifest.xml : Deep Link 방식과 동일하게 작성한다
 
-<img src="{{ 'assets/images/2018-03-04/9.png' | relative_url }}" alt="image" style="width:60%;"><br>
+<img src="{{ 'assets/images/2018-03-04/9.png' | relative_url }}" alt="image"><br>
 
 - wanted-apk-app
 
-<img src="{{ 'assets/images/2018-03-04/10.png' | relative_url }}" alt="image" style="width:60%;"><br>
+<img src="{{ 'assets/images/2018-03-04/10.png' | relative_url }}" alt="image"><br>
 
 - wanted-instant-app
 
-<img src="{{ 'assets/images/2018-03-04/11.png' | relative_url }}" alt="image" style="width:60%;"><br>
+<img src="{{ 'assets/images/2018-03-04/11.png' | relative_url }}" alt="image"><br>
 
 ## 외부 라이브러리 호환성
 - 라이브러리는 최신 버전을 사용해야함
