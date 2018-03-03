@@ -77,37 +77,37 @@ tags:
 <div class="row">
 <div class="12u 12u$(mobile)">
 <div class="item">
-<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/6.png' | relative_url }}" alt="image"></a>
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/6.png' | relative_url }}" alt="image" style="width:100%;"></a>
 <header>
 <h3>wanted-feature-base #1 : com.android.library 대신 com.android.feature이 쓰인다</h3>
 </header>
 </div>
 <div class="item">
-<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/7.png' | relative_url }}" alt="image"></a>
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/7.png' | relative_url }}" alt="image" style="width:100%;"></a>
 <header>
 <h3>wanted-feature-base #2 : Base Feature는 필수적인 것만 사용한다</h3>
 </header>
 </div>
 <div class="item">
-<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/8.png' | relative_url }}" alt="image"></a>
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/8.png' | relative_url }}" alt="image" style="width:100%;"></a>
 <header>
 <h3>wanted-feature-ia</h3>
 </header>
 </div>
 <div class="item">
-<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/9.png' | relative_url }}" alt="image"></a>
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/9.png' | relative_url }}" alt="image" style="width:100%;"></a>
 <header>
 <h3>AndroidManifest.xml : Deep Link 방식과 동일하게 작성한다</h3>
 </header>
 </div>
 <div class="item">
-<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/10.png' | relative_url }}" alt="image"></a>
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/10.png' | relative_url }}" alt="image" style="width:100%;"></a>
 <header>
 <h3>wanted-apk-app</h3>
 </header>
 </div>
 <div class="item">
-<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/11.png' | relative_url }}" alt="image"></a>
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/11.png' | relative_url }}" alt="image" style="width:100%;"></a>
 <header>
 <h3>wanted-instant-app</h3>
 </header>
