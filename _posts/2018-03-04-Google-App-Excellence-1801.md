@@ -21,35 +21,42 @@ tags:
 ### 개발 준비물
 
 <div class="row">
-<div class="12u 12u$(mobile)">
+<div class="6u 12u$(mobile)">
 <div class="item">
-<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/1.png' | relative_url }}" alt="image" style="width:500px;"></a>
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/1.png' | relative_url }}" alt="image" style="width:100%;"></a>
 <header>
 <h3>Android Studio 3.0 버전 이상</h3>
 </header>
 </div>
 <div class="item">
-<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/2.png' | relative_url }}" alt="image" style="width:500px;"></a>
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/2.png' | relative_url }}" alt="image" style="width:100%;"></a>
 <header>
 <h3>Android Instant App SDK</h3>
 </header>
 </div>
+</div>
+<div class="6u 12u$(mobile)">
 <div class="item">
-<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/3.png' | relative_url }}" alt="image"></a>
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/3.png' | relative_url }}" alt="image" style="width:100%;"></a>
 <header>
 <h3>URL 핸들링을 지원하는 App Link</h3>
 </header>
 </div>
+<div class="item">
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/12.png' | relative_url }}" alt="image" style="width:100%;"></a>
+<header>
+<h3>App Link를 지원하는 테스트 디바이스</h3>
+</header>
 </div>
 </div>
-#### App Link를 지원하는 테스트 디바이스
+</div>
 
 ### 프로젝트 구조 변경
 
 <div class="row">
 <div class="6u 12u$(mobile)">
 <div class="item">
-<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/4.png' | relative_url }}" alt="image" style="width:500px;"></a>
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-04/4.png' | relative_url }}" alt="image" style="width:100%;"></a>
 <header>
 <h3>Google 권장</h3>
 </header>
