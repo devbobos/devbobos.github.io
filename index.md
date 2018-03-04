@@ -36,7 +36,7 @@ auto-header: none
   line-height: 12px;
   color: #fff;
   text-align: center;
-  background-color: #76b1c3;
+  background-color: #549EB4;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
