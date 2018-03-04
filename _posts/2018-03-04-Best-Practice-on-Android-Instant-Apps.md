@@ -1,14 +1,14 @@
 ---
-title: Google App Excellence 18/01
+title: Best Practice on Android Instant Apps
 layout: post
 comments: true
 tags:
-- Android
+- GoogleAppExcellence
 ---
 <img src="{{ 'assets/images/2018-02-27/google.png' | relative_url }}" alt="google" style="width:100%;"><br>
 17년도 Google App Excellence 세미나가 마무리 되는 도중 18년에도 진행한다는 말이 없었고 세미나 자체도 이벤트성에 가깝다고 생각하여 18년에는 진행하지 않을 줄 알았으나, 18년도 세미나 진행에 대한 공지가 내려왔다. 사정이 있어 1월 세미나엔 참석을 하지 못했지만 대충 아젠다를 보니 스터디 팀을 재정비하고 앞으로 세미나 진행에 대한 브리핑을 한 모양이다. 직접 듣지는 못했지만 발표자료를 토대로 포스팅을 진행해보려고 한다.
 
-## Best Practice on Android Instant Apps / 지도현 wanted
+## 빠른실행 앱
 - 빠른실행 앱을 사용하여 실제 앱과 동일한 경험을 주며 접근성을 향상시킬 수 있다
 - 빠른실행 앱은 링크 클릭만으로 동작하지만 웹앱이 아니다!
 
