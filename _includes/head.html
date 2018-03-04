@@ -14,7 +14,7 @@
   {%- assign _page_title = _page_title | escape -%}
   {%- assign _page_description = page.description | default: site.description | default: _page_title | escape -%}
 
-  <title>bobos의 블로그</title>
+  <title>{{- _page_title -}}</title>
   <meta name="description" content="{{- _page_description -}}" />
   <meta name="author" content="{{- site.author -}}" />
   <meta name="apple-mobile-web-app-title" content="{{- _page_title -}}" />
