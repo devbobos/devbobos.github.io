@@ -54,6 +54,7 @@ pinterest_url:
 slack_url:
 twitter_url: https://twitter.com/devbobos
 telegram_url:
+rss_url: https://devbobos.github.io/feed.xml
 
 # Google Analytics Tracking ID goes here:
 google_analytics: UA-90666704-2

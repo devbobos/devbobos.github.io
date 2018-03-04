@@ -33,4 +33,7 @@
   {%- if site.telegram_url -%}
   <li><a href="" class="icon fa-telegram-plane"><span class="label">Telegram</span></a></li>
   {%- endif -%}
+  {%- if site.rss_url -%}
+  <li><a href="{{- site.rss_url -}}" class="icon fa-rss"><span class="label">RSS</span></a></li>
+  {%- endif -%}
 </ul>
