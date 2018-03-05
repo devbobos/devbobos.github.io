@@ -6,23 +6,23 @@ layout: null
     {%- assign _posts = site.posts | sort: 'date' | reverse -%}
     {%- for _post in _posts -%}
     <url>
-        <loc>{{ site.url }}{{ post.url }}</loc>
+        <loc>{{- _post.url | absolute_url -}}</loc>
         {% if post.lastmod == null %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+        <lastmod>{{ _post.date | date_to_xmlschema }}</lastmod>
         {% else %}
-        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
+        <lastmod>{{ _post.lastmod | date_to_xmlschema }}</lastmod>
         {% endif %}
 
         {% if post.sitemap.changefreq == null %}
         <changefreq>weekly</changefreq>
         {% else %}
-        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
+        <changefreq>{{ _post.sitemap.changefreq }}</changefreq>
         {% endif %}
 
         {% if post.sitemap.priority == null %}
         <priority>0.5</priority>
         {% else %}
-        <priority>{{ post.sitemap.priority }}</priority>
+        <priority>{{ _post.sitemap.priority }}</priority>
         {% endif %}
     </url>
     {% endfor %}
