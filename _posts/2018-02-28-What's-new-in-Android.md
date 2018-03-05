@@ -60,7 +60,7 @@ Google App Excellence 6월 세미나 내용 중 두번째 섹션인 What's new i
 - 자바 버젼 업데이트
 
 <div class="row">
-<div class="12u 12u$(mobile)">
+<div class="6u 12u$(mobile)">
 <div class="item">
 <a href="#" class="image fit"><img src="{{ 'assets/images/2018-02-28/5.png' | relative_url }}" alt="image" style="width:100%;"></a>
 <header>
