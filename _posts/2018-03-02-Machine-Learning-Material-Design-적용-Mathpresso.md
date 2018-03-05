@@ -1,5 +1,5 @@
 ---
-title: Machine Learning & Material Design 적용 Mathpresso
+title: Machine Learning Material Design 적용 Mathpresso
 layout: post
 comments: true
 tags:
