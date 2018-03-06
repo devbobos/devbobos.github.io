@@ -114,7 +114,7 @@ tags:
         <img src="{{ 'assets/images/2018-03-06/2.png' | relative_url }}" alt="image" style="width:100%;"/>
         </td>
         <td>
-        <img src="{{ 'assets/images/2018-03-06/3.png' | relative_url }}" alt="image" style="width:100%;"/>
+        <img src="{{ 'assets/images/2018-03-06/3.jpg' | relative_url }}" alt="image" style="width:100%;"/>
         </td>
       </tr>
     </tbody>
