@@ -9,7 +9,9 @@
 
   <!-- Title, description, author -->
   {%- capture _page_title -%}
-    {%- if page.title -%}{{- page.title -}}{%- endif -%}
+    {%- if page.title -%}{{- page.title | append: ' | ' -}}{%- endif -%}
+    {{- site.title | default: "Untitled Website" -}}
+    {%- if site.subtitle -%}{{- site.subtitle | prepend: ' - ' -}}{%- endif -%}
   {%- endcapture -%}
   {%- assign _page_title = _page_title | escape -%}
   {%- assign _page_description = page.description | default: site.description | default: _page_title | escape -%}
@@ -33,13 +35,13 @@
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="bobos의 블로그">
+  <meta name="twitter:title" content="{{- _page_title -}}">
   <meta name="twitter:url" content="{{- page.url | absolute_url -}}">
   <meta name="twitter:image" content="{{- site.avatar | absolute_url -}}">
   <meta name="twitter:description" content="{{- _page_description -}}"/>
 
   <!-- Open Graph -->
-  <meta property="og:title" content="bobos의 블로그" />
+  <meta property="og:title" content="{{- _page_title -}}" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="{{- 'assets/images/banner.jpg' | relative_url -}}" />
   <meta property="og:url" content="{{- page.url | absolute_url -}}" />
