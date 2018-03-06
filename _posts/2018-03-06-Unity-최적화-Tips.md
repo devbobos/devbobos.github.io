@@ -73,7 +73,7 @@ tags:
     </tr>
   </thead>
     <tbody>
-      </tr>
+      <tr>
         <td>
         {% highlight csharp %}
         public class ExampleClass : MonoBehaviour {
@@ -196,7 +196,7 @@ tags:
 - ETC2
   - ETC1과 같은 동작을 하나 더 좋은 결과물을 내준다, Quality는 Best 정도
   - OpenGL ES 3.0부터 지원하기 때문에 Android OS 지원 이슈가 있다, Android 4.3 미만은 지원하지 않으므로 해당 기기에서 해당 옵션을 사용할 경우 **압축하지 않고 메모리에 적재** 해버리기에 자칫하면 Out of memory 에러가 날 수도 있다
-  - Unity 2017 버전에서는 지원하지 않을 경우의 예외처리가 가능하다 (ETC2 Fallback)
+  - Unity 2017 버전에서는 지원하지 않을 경우의 예외처리가 가능하다 (ETC2 Fallback 기능)
 <div class="row">
 <div class="6u 12u$(mobile)">
 <div class="item">
