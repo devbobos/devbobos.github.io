@@ -263,6 +263,7 @@
 
 		img {
 			display: block;
+      width:100%;
 		}
 
 		&.avatar48 {
@@ -300,9 +301,8 @@
 		}
 
 		&.centered {
-			display: block;
-      margin-left: auto;
-      margin-right: auto;
+      display:block;
+	    margin:0 0 2em 0;
 
 			img {
 				margin: 0 auto;
