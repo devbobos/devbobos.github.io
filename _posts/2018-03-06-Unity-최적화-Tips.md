@@ -5,7 +5,7 @@ comments: true
 tags:
 - Unity
 ---
-<img src="{{ 'assets/images/2018-03-05/0.jpg' | relative_url }}" alt="unity" style="width:100%;"><br>
+<img src="{{ 'assets/images/2018-03-05/0.jpg' | relative_url }}" alt="unity"><br>
 2월 26일에는 구글 캠퍼스에서 진행된 Unity 워크샵의 두번째 세션인 Unity를 최적화 하기 위한 팁들이다. 발표 내용은 굉장히 짧게 느껴졌지만 내용들은 쓸모있는 것들만 가득 차있어서 받아적는데 정신이 없을 지경이었다. 간단한 방법부터 시작해서 기존 프로젝트를 아예 새로 만드는게 나을 정도로 프로젝트 내에 긴밀하게 연결되어 있는 부분부터 여러가지 최적화 방법이 있으니 가장 빨리 할 수 있는 것부터 차근차근 진행하는게 올바른 방법이다.
 
 ## 최적화 단계
@@ -93,7 +93,7 @@ tags:
 </div>
 
 ## Physics 최적화
-<p><span class="image right"><img src="{{ 'assets/images/2018-03-06/13.png' | relative_url }}" alt="physics" style="width:400px;"/></span> Physics 최적화의 방법은 간단하면서도 어려운 부분이 많다. Unity의 Physics 알고리즘은 개발자가 건드릴 수 있는 부분이 아니거니와 게임이 복잡해질수록 Cost가 드는 것이 당연한데 쾌적한 Performance도 포기할 수 없는 중요한 요소이기 때문이다. 발표에서는 개발자 입장에서 할 수있는 몇가지 방법을 제안하였다.</p>
+<p><span class="image right"><img src="{{ 'assets/images/2018-03-06/13.png' | relative_url }}" alt="physics"/></span> Physics 최적화의 방법은 간단하면서도 어려운 부분이 많다. Unity의 Physics 알고리즘은 개발자가 건드릴 수 있는 부분이 아니거니와 게임이 복잡해질수록 Cost가 드는 것이 당연한데 쾌적한 Performance도 포기할 수 없는 중요한 요소이기 때문이다. 발표에서는 개발자 입장에서 할 수있는 몇가지 방법을 제안하였다.</p>
 
 ### 해결방법
 1. Scene의 복잡도를 줄이자
