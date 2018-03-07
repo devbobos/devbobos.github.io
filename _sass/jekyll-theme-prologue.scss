@@ -1086,9 +1086,19 @@
       a {
         border-bottom: 0px;
       }
-      p {
-        color: #888;
-        pointer-events: none;
+      @media (max-width:480px) {
+        p {
+          color: #888;
+          pointer-events: none;
+          font-size: 0.8em;
+        }
+      }
+      @media (min-width:480px) {
+        p {
+          color: #888;
+          pointer-events: none;
+          font-size: 0.6em;
+        }
       }
       .disabled {
         pointer-events: none;
