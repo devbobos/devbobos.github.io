@@ -13,8 +13,8 @@ order: 4
   </span>
 {% endfor %}
 </div>
-<br>
 <hr>
+<br>
 <div id="archives">
 {% for tag in site.tags %}
   <div class="archive-group">
