@@ -1083,8 +1083,12 @@
     /* Pagination */
     .pagination {
       color: #666;
-      a{
+      a {
         border-bottom: 0px;
+      }
+      p {
+        color: #727272;
+        pointer-events: none;
       }
       .disabled {
         pointer-events: none;
