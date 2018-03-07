@@ -1087,13 +1087,13 @@
         cursor: default;
       }
       .prev {
-        position: relative;
+        position: absolute;
         left: 0px;
         top: 0px;
         width: 50%;
       }
       .next {
-        position: relative;
+        position: absolute;
         top: 0px;
         right: 0px;
         width: 50%;
