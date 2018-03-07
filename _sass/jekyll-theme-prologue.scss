@@ -1147,5 +1147,19 @@
 					}
 				}
 			}
+      /* Pagination */
+      .pagination {
+        a {
+          .disabled {
+            pointer-events: none;
+            cursor: default;
+          }
+        }
+        &.prev {
 
+        }
+        &.next {
+
+        }
+      }
 	}
