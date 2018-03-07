@@ -9,7 +9,7 @@
 
   <!-- Title, description, author -->
   {%- capture _page_title -%}
-    {%- if page.title != "홈" -%}
+    {%- if page.title != "블로그" -%}
       {%- if page.title -%}{{- page.title | append: ' | ' -}}{%- endif -%}
       {{- site.title | default: "Untitled Website" -}}
     {% else %}
