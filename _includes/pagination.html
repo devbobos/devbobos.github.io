@@ -2,15 +2,14 @@
   <div class="prev">
     <span class="icon fa-chevron-left"></span>
     {% if page.previous != nil %}
-      <a href="{{- page.previous -}}"> 이전글</a>
+      <a href="{{- page.previous.url | absolute_url -}}"> 이전글</a>
     {% else %}
       <a href="#" class="disabled"> 이전글</a>
     {% endif %}
-
   </div>
   <div class="next">
     {% if page.next != nil %}
-      <a href="{{- page.next -}}">다음글 </a>
+      <a href="{{- page.next.url | absolute_url -}}">다음글 </a>
     {% else %}
       <a href="#" class="disabled">다음글 </a>
     {% endif %}
