@@ -1080,6 +1080,20 @@
 				}
 			}
 	}
+    /* Pagination */
+    .pagination {
+      .disabled {
+        pointer-events: none;
+        cursor: default;
+      }
+      .prev {
+
+      }
+      .next {
+
+      }
+    }
+
 
 /* Mobile */
 
@@ -1147,19 +1161,4 @@
 					}
 				}
 			}
-      /* Pagination */
-      .pagination {
-        a {
-          .disabled {
-            pointer-events: none;
-            cursor: default;
-          }
-        }
-        &.prev {
-
-        }
-        &.next {
-
-        }
-      }
 	}
