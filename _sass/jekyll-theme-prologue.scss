@@ -1085,6 +1085,8 @@
       .disabled {
         pointer-events: none;
         cursor: default;
+        color: #666;
+        border-bottom: 0px;
       }
       .prev {
         float: left;
