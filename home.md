@@ -4,7 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: "page"
 title: "프로필"
-icon: fa-home
+icon: fa-user
 order: 2
 auto-header: none
 ---
