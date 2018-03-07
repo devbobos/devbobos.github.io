@@ -5,14 +5,16 @@
     {% else %}
       <a href="#" class="disabled">
     {% endif %}
-    <span class="icon fa-chevron-left"></span> 이전글</a>
+    <span class="icon fa-chevron-left"></span>&nbsp;이전글</a>
+    <p>{{- page.previous.title -}}</p>
   </div>
   <div class="next">
     {% if page.next != nil %}
-      <a href="{{- page.next.url | absolute_url -}}">다음글
+      <a href="{{- page.next.url | absolute_url -}}">
     {% else %}
-      <a href="#" class="disabled">다음글
+      <a href="#" class="disabled">
     {% endif %}
-    <span class="icon fa-chevron-right"></span></a>
+    다음글&nbsp;<span class="icon fa-chevron-right"></span></a>
+    <p>{{- page.next.title -}}</p>
   </div>
 </div>
