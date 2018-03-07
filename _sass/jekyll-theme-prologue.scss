@@ -1087,16 +1087,10 @@
         cursor: default;
       }
       .prev {
-        position: static;
-        left: 0px;
-        top: 0px;
-        width: 50%;
+        float: left;
       }
       .next {
-        position: static;
-        top: 0px;
-        right: 0px;
-        width: 50%;
+        float: right;
       }
     }
 
