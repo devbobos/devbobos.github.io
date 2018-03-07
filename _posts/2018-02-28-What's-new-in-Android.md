@@ -73,4 +73,3 @@ Google App Excellence 6월 세미나 내용 중 두번째 섹션인 What's new i
 ## 참고자료
 Android O 변경사항 [#](https://developer.android.com/about/versions/oreo/index.html?hl=ko)<br>
 Kotlin and Android [#](https://developer.android.com/kotlin/index.html)<br>
-{% include comments.html %}

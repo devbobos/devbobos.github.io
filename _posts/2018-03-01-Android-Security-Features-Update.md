@@ -47,4 +47,3 @@ Google App Excellence 8월 세미나 내용 중 두번째 섹션인 Android Secu
 Android KeyStore 시스템 [#](https://developer.android.com/training/articles/keystore.html?hl=ko)<br>
 Android PlayProtect [#](https://www.android.com/play-protect/)<br>
 SefetyNet reCAPTCHA API [#](https://developer.android.com/training/safetynet/recaptcha.html)<br>
-{% include comments.html %}

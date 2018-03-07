@@ -29,4 +29,3 @@ Google App Excellence 10월 내용 중 Delight Room가 진행한 세번째 세�
 ## 참고자료
 알라미 [#](https://play.google.com/store/apps/details?id=droom.sleepIfUCan&hl=ko)<br>
 알파 및 베타 테스트 실행 [#](https://developer.android.com/distribute/best-practices/launch/beta-tests.html?hl=ko)<br>
-{% include comments.html %}

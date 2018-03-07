@@ -37,5 +37,3 @@ tags:
 
 ## 참고자료
 Protecting Against Security Threats with SafetyNet[#](https://developer.android.com/training/safetynet/index.html)<br>
-
-{% include comments.html %}

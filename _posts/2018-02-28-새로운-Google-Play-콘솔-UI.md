@@ -34,4 +34,3 @@ A) 방법이 없다, 계속 버전을 올리는 수밖에 없다<br>
 
 ## 참고자료
 Google Play Console [#](https://developer.android.com/distribute/console/index.html?hl=ko)<br>
-{% include comments.html %}

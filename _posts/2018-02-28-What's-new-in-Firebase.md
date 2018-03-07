@@ -61,4 +61,3 @@ Fabric [#](https://fabric.io)<br>
 Crashlytics [#](https://try.crashlytics.com)<br>
 Digits for xamarin [#](https://xamarindev.blog/2017/02/09/digits-for-xamarin/)<br>
 Firebase Test Lab [#](https://firebase.google.com/docs/test-lab/?hl=ko)<br>
-{% include comments.html %}

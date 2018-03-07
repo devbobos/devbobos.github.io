@@ -47,4 +47,3 @@ A) 카피캣은 구글에서도 자체적으로 제재를 가하고 있다.<br>
 <h2>참고자료</h2>
 구글 Meterial 아이콘 [#](https://github.com/google/material-design-icons>)<br>
 구글 Meterial 가이드라인 [#](https://material.io/guidelines/)<br>
-{% include comments.html %}

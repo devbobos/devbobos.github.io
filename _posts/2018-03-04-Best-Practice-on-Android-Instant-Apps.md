@@ -141,4 +141,3 @@ tags:
 
 ## 참고자료
 Android 빠른 실행 앱 [#](https://developer.android.com/topic/instant-apps/index.html?hl=ko)<br>
-{% include comments.html %}

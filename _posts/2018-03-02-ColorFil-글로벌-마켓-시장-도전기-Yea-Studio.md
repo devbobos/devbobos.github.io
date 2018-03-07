@@ -49,4 +49,3 @@ Google App Excellence 10월 내용 중 Yea Studio가 진행한 두번째 세션�
 
 ## 참고자료
 ColorFil [#](https://play.google.com/store/apps/details?id=net.yeastudio.colorfil&hl=ko)<br>
-{% include comments.html %}

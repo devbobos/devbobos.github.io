@@ -51,4 +51,3 @@ A) 현재 지원안되고 추후 지원 예정이다<br>
 ## 참고자료
 Firebase Analytics [#](https://firebase.google.com/docs/analytics/?hl=ko)<br>
 Google Analytics [#](https://www.google.com/analytics/)<br>
-{% include comments.html %}

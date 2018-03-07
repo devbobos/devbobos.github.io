@@ -49,4 +49,3 @@ tags:
 ## 참고자료
 콴다 [#](https://qanda.co.kr)<br>
 Material Design Icon [#](https://material.io/icons/)<br>
-{% include comments.html %}
