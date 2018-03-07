@@ -1,3 +1,5 @@
+{%- assign previous_size = page.previous.title | size -%}
+{%- assign next_size = page.next.title | size -%}
 <div class="pagination">
   <div class="prev">
     {% if page.previous != nil %}
@@ -6,7 +8,9 @@
       <a href="#" class="disabled">
     {% endif %}
     <span class="icon fa-chevron-left"></span>&nbsp;이전글</a>
+    {% if previous_size < 10 and next_size < 10%}
     <p>{{- page.previous.title -}}</p>
+    {% endif %}
   </div>
   <div class="next">
     {% if page.next != nil %}
@@ -15,6 +19,7 @@
       <a href="#" class="disabled">
     {% endif %}
     다음글&nbsp;<span class="icon fa-chevron-right"></span></a>
+    {% if previous_size < 10 and next_size < 10%}
     <p>{{- page.next.title -}}</p>
   </div>
 </div>
