@@ -1082,11 +1082,13 @@
 	}
     /* Pagination */
     .pagination {
+      a{
+        border-bottom: 0px;
+      }
       .disabled {
         pointer-events: none;
         cursor: default;
         color: #888;
-        border-bottom: 0px;
       }
       .prev {
         float: left;
