@@ -36,7 +36,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   여기서부터 이야기는 시작된다
 author: devbobos
 email: greenpotter@naver.com
-avatar: assets/images/avatar.jpg
+avatar: assets/images/site/avatar.jpg
 markdown: kramdown
 highlighter: rouge
 # You'll want to customize url and baseurl for your own site:

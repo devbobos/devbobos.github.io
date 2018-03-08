@@ -106,7 +106,7 @@ auto-header: none
 }
 </style>
 <div class="aboutmecontainer">
-  <img src="assets/images/pic08.jpg" alt="portrait" style="width: 100%; height: auto;">
+  <img src="assets/images/site/pic08.jpg" alt="portrait" style="width: 100%; height: auto;">
   <div class="aboutmebottomleft">
     <h2 style="text-align: left; color: white; font-weight: 600;">손보광</h2>
     <p style="text-align: left; color: white;">Mobile App Developer</p>
