@@ -7,7 +7,7 @@ title: "프로필"
 icon: fa-black-tie
 order: 2
 auto-header: none
-description: devbobos는 이런 사람입니다
+description: devbobos의 현재 모습입니다, 계속해서 배워 나가려고 합니다.
 ---
 <style>
 .aboutmecontainer {
