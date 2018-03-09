@@ -5,8 +5,7 @@ comments: true
 tags:
 - GoogleAppExcellence
 ---
-<img src="{{ 'assets/images/2018-02-27/google.png' | relative_url }}" alt="google" style="width:100%;">
-<br>
+{%- include banner_android.html -%}
 10월 세미나는 지금까지 발표되었던 세미나 내용을 실전에 적용한 상용 앱들과 적용하는 과정에서 겪었던 어려운점 그리고 성과에 관한 내용이 주가 되었다. 총 3개의 개발사가 나와서 발표하였고 각자 여러가지 관점에서 기술을 도입하여 괄목할만한 성장을 이룬듯하다. MathPresso 회사가 발표한 첫번째 세션이다.
 
 <a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-02/1.png' | relative_url }}" alt="Mathpresso"></a>

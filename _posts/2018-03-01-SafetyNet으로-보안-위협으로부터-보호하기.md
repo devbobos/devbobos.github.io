@@ -5,8 +5,7 @@ comments: true
 tags:
 - GoogleAppExcellence
 ---
-<img src="{{ 'assets/images/2018-02-27/google.png' | relative_url }}" alt="google" style="width:100%;">
-<br>
+{%- include banner_android.html -%}
 7월 세미나는 진행되지 않았고 2일에 Google I/O Extended in Seoul이 진행되었으므로 8월에 진행된 세미나 내용을 정리하려고 한다. 8월에는 쉽게 접할수 없는 Android 보안에 관한 내용이 다뤄졌다. 기본으로 고려해야 될 사항임에도 불구하고 보안 쪽은 적용하기가 까다로운 부분이니 도움이 될만한 자료가 될것 같다.
 
 ### 보안 신경쓸것들

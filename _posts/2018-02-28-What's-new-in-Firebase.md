@@ -5,8 +5,7 @@ comments: true
 tags:
 - GoogleAppExcellence
 ---
-<img src="{{ 'assets/images/2018-02-27/google.png' | relative_url }}" alt="google" style="width:100%;">
-<br>
+{%- include banner_android.html -%}
 Google App Excellence 6월 세미나 내용 중 세번째 섹션인 What's new in Firebase이다.
 
 ### Crash Reporting Tool 업데이트

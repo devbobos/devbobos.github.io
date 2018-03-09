@@ -5,8 +5,7 @@ comments: true
 tags:
 - GoogleAppExcellence
 ---
-<img src="{{ 'assets/images/2018-02-27/google.png' | relative_url }}" alt="google" style="width:100%;">
-<br>
+{%- include banner_android.html -%}
 Google App Excellence 10월 내용 중 Delight Room가 진행한 세번째 세션이다.
 
 <a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-02/3.png' | relative_url }}" alt="Alarmy"></a>

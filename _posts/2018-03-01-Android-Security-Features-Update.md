@@ -5,8 +5,7 @@ comments: true
 tags:
 - GoogleAppExcellence
 ---
-<img src="{{ 'assets/images/2018-02-27/google.png' | relative_url }}" alt="google" style="width:100%;">
-<br>
+{%- include banner_android.html -%}
 Google App Excellence 8월 세미나 내용 중 두번째 섹션인 Android Security Features Update이다.
 
 1. OS Features

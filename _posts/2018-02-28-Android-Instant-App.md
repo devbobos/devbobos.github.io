@@ -5,8 +5,7 @@ comments: true
 tags:
 - GoogleAppExcellence
 ---
-<img src="{{ 'assets/images/2018-02-27/google.png' | relative_url }}" alt="google" style="width:100%;">
-<br>
+{%- include banner_android.html -%}
 6월 GoogleAppExcellence 세미나가 진행되었던 시기에 2017년 Google I/O Recap이 진행됐고 Google의 새로운 API 및 Android O에 대한 내용이 다수 다뤄졌는데, 이번 세미나에서는 Recap에서 진행된 내용 중 유익한 내용을 추려내어 진행하는 방향으로 결정되었다. 업데이트에 따라 개발 툴인 Android Studio 사용 방법의 달라진 부분도 다수 있으니 확인해보고 적용해보면 좋을 듯하다. 첫번째 섹션은 Android Instant App에 관한 내용이다.
 
 - 근래 앱 설치 자체를 기피하는 사용자가 증가하고 있으며 그에 따른 대안으로 Instant App을 만들었다
