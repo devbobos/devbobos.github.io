@@ -30,7 +30,33 @@ layout: default
 		    <meta itemprop="url" content="{{- '/' | absolute_url -}}">
 		  </div>
 			<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+				{% assign flag = "null" %}
+				{% for tag in _post.tags %}
+					{% if tag == "Android" %}
+						{% assign flag = "Android" %}
+						{% break %}
+					{% elsif tag == "iOS" %}
+						{% assign flag = "iOS" %}
+						{% break %}
+					{% elsif tag == "GoogleAppExcellence" %}
+						{% assign flag = "GoogleAppExcellence" %}
+						{% break %}
+					{% elsif tag == "Unity" %}
+						{% assign flag = "Unity" %}
+						{% break %}
+					{% endif %}
+				{% endfor %}
+				{% if flag == "Android" %}
+				<meta itemprop="url" content="{{- 'assets/images/2018-03-08/1.png' | absolute_url -}}">
+				{% elsif flag == "iOS" %}
+				<meta itemprop="url" content="{{- 'assets/images/2018-03-08/2.png' | absolute_url -}}">
+				{% elsif flag == "GoogleAppExcellence" %}
+				<meta itemprop="url" content="{{- 'assets/images/2018-02-27/google.png' | absolute_url -}}">
+				{% elsif _post.tags == "Unity" %}
+				<meta itemprop="url" content="{{- 'assets/images/2018-03-05/0.jpg' | absolute_url -}}">
+				{% else %}
 				<meta itemprop="url" content="{{- 'assets/images/favicons/favicon-144.png' | absolute_url -}}">
+				{% endif %}
 			</div>
 			<meta itemprop="datePublished" content="{{ _post.date }}">
 			<meta itemprop="dateModified" content="{{ _post.date }}">
