@@ -33,6 +33,8 @@ layout: default
 				<meta itemprop="url" content="{{- 'assets/images/favicons/favicon-144.png' | absolute_url -}}">
 			</div>
 			<meta itemprop="datePublished" content="{{ _post.date }}">
+			<meta itemprop="dateModified" content="{{ _post.date }}">
+			<meta itemprop="mainEntityOfPage" content="{{- '/' | absolute_url -}}">
 		{%- endcapture -%}
 		{%- capture _excerpt -%}<p>{{- _post.excerpt | strip_html | truncatewords: 100 -}}</p>{%- endcapture -%}
 		{%- capture _link -%}<a href="{{- _post.url | absolute_url -}}">read more</a>{%- endcapture -%}
