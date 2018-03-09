@@ -32,11 +32,11 @@ layout: default
 			<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
 				{% if _post.tags == "Android" %}
 				<meta itemprop="url" content="{{- 'assets/images/2018-03-08/1.png' | absolute_url -}}">
-				{% elseif _post.tags == "iOS" %}
+				{% elsif _post.tags == "iOS" %}
 				<meta itemprop="url" content="{{- 'assets/images/2018-03-08/2.png' | absolute_url -}}">
-				{% elseif _post.tags == "GoogleAppExcellence" %}
+				{% elsif _post.tags == "GoogleAppExcellence" %}
 				<meta itemprop="url" content="{{- 'assets/images/2018-02-27/google.png' | absolute_url -}}">
-				{% elseif _post.tags == "Unity" %}
+				{% elsif _post.tags == "Unity" %}
 				<meta itemprop="url" content="{{- 'assets/images/2018-03-05/0.jpg' | absolute_url -}}">
 				{% else %}
 				<meta itemprop="url" content="{{- 'assets/images/favicons/favicon-144.png' | absolute_url -}}">
