@@ -12,7 +12,7 @@ layout: default
 	{%- for _post in _posts -%}
 		<!-- Header -->
 		{%- capture _title -%}
-			<a href="{{- _post.url | absolute_url -}}" itemprop="headline">{{- _post.title -}}</a>
+			<a href="{{- _post.url | absolute_url -}}">{{- _post.title -}}</a>
 		{%- endcapture -%}
 		{%- capture _subtitle -%}
 			{% if _post.author -%}{{- _post.author }} | {% endif %}
@@ -35,6 +35,7 @@ layout: default
 			<meta itemprop="datePublished" content="{{ _post.date }}">
 			<meta itemprop="dateModified" content="{{ _post.date }}">
 			<meta itemprop="mainEntityOfPage" content="{{- '/' | absolute_url -}}">
+			<meta itemprop="headline" content="{{- _post.title -}}">
 		{%- endcapture -%}
 		{%- capture _excerpt -%}<p>{{- _post.excerpt | strip_html | truncatewords: 100 -}}</p>{%- endcapture -%}
 		{%- capture _link -%}<a href="{{- _post.url | absolute_url -}}">read more</a>{%- endcapture -%}

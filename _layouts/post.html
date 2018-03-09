@@ -25,9 +25,10 @@ layout: default
 			<meta itemprop="datePublished" content="{{ page.date }}">
 			<meta itemprop="dateModified" content="{{ page.date }}">
 			<meta itemprop="mainEntityOfPage" content="{{- '/' | absolute_url -}}">
+			<meta itemprop="headline" content="{{- page.title -}}">
 			<!-- Content -->
 			<header>
-				<h2 itemprop="headline">{{- page.title -}}</h2>
+				<h2>{{- page.title -}}</h2>
 				<p>{% if page.author %}{{ page.author }}, {% endif %}{{- page.date | date_to_long_string -}}</p>
 				{% include tags.html %}
 			</header>
