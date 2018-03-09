@@ -7,7 +7,7 @@ title: "프로필"
 icon: fa-black-tie
 order: 2
 auto-header: none
-description: devbobos는 이런 사람입니다.
+description: devbobos는 이런 사람입니다
 ---
 <style>
 .aboutmecontainer {
