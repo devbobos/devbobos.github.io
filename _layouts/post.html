@@ -7,7 +7,23 @@ layout: default
 <div id="main">
 	<!-- Post -->
 	<article class="shade-two">
-	  <div class="container">
+	  <div class="container" itemscope="" itemtype="http://schema.org/BlogPosting">
+			<!-- Structured Data -->
+			<div itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+		    <meta itemprop="name" content="{{- site.author -}}">
+		    <div itemprop="logo" itemscope="" itemtype="http://schema.org/ImageObject">
+		      <meta itemprop="url" content="{{- 'assets/images/favicons/favicon-144.png' | relative_url -}}">
+		    </div>
+		  </div>
+			<div itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+		    <meta itemprop="name" content="{{- site.author -}}">
+		    <meta itemprop="url" content="{{- '/' | absolute_url -}}">
+		  </div>
+			<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+				<meta itemprop="url" content="{{- 'assets/images/favicons/favicon-144.png' | relative_url -}}">
+			</div>
+			<div itemprop="datePublished">{{ _post.date }}</div>
+			<!-- Content -->
 			<header>
 				<h2>{{- page.title -}}</h2>
 				<p>{% if page.author %}{{ page.author }}, {% endif %}{{- page.date | date_to_long_string -}}</p>
