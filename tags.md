@@ -3,6 +3,7 @@ title: 태그
 layout: "page"
 icon: fa-tag
 order: 4
+description: 태그별 페이지 목록
 ---
 <div class="tag-cloud">
 {% for tag in site.tags %}
