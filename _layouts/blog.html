@@ -11,20 +11,20 @@ layout: default
 	<!-- Posts List -->
 	{%- for _post in _posts -%}
 		<!-- Structured Data -->
-		<div itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+		<div class="meta" itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
 	    <meta itemprop="name" content="{{- site.author -}}">
 	    <div itemprop="logo" itemscope="" itemtype="http://schema.org/ImageObject">
 	      <meta itemprop="url" content="{{- 'assets/images/favicons/favicon-144.png' | relative_url -}}">
 	    </div>
 	  </div>
-		<div itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+		<div class="meta" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
 	    <meta itemprop="name" content="{{- site.author -}}">
 	    <meta itemprop="url" content="{{- '/' | absolute_url -}}">
 	  </div>
-		<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+		<div class="meta" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
 			<meta itemprop="url" content="{{- 'assets/images/favicons/favicon-144.png' | relative_url -}}">
 		</div>
-		<div itemprop="datePublished">{{ _post.date }}</div>
+		<div class="meta" itemprop="datePublished">{{ _post.date }}</div>
 		<!-- Header -->
 		{%- capture _title -%}
 			<a href="{{- _post.url | absolute_url -}}" itemprop="headline">{{- _post.title -}}</a>
