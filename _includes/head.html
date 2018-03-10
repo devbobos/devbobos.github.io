@@ -6,7 +6,7 @@
   <!-- Robots -->
   <meta name="robots" content="{{- page.robots | default: 'index, follow' -}}" />
   {%- unless page.canonical == false -%}<link rel="canonical" href="{{- page.url | absolute_url -}}" />{%- endunless -%}
-
+  <meta name="referrer" content="always" />
   <!-- Title, description, author -->
   {%- capture _page_title -%}
     {%- if page.title != "블로그" -%}
@@ -23,8 +23,8 @@
   <meta name="description" content="{{- _page_description -}}" />
   <meta name="author" content="{{- site.author -}}" />
   <meta name="apple-mobile-web-app-title" content="{{- _page_title -}}" />
-  <meta name="keywords" content="Developer,Android,iOS,Swift,Web,Programmer,Xcode,Mac,Java,devbobos,bobos,개발,블로그,웹,안드로이드,자바">
-  <meta charset="utf-8"/>
+  <meta name="keywords" content="Developer,Android,iOS,Swift,Web,Programmer,Xcode,Mac,Java,devbobos,bobos,개발,블로그,웹,안드로이드,자바" />
+  <meta charset="utf-8" />
 
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="{{- 'assets/images/favicons/apple-touch-icon.png' | relative_url -}}">
@@ -32,8 +32,8 @@
   <link rel="icon" type="image/png" sizes="16x16" href="{{- 'assets/images/favicons/favicon-16.png' | relative_url -}}">
   <link rel="manifest" href="{{- 'assets/images/favicons/site.webmanifest' | relative_url -}}">
   <link rel="mask-icon" href="{{- 'assets/images/favicons/safari-pinned-tab.svg' | relative_url -}}" color="#00aba9">
-  <meta name="msapplication-TileColor" content="#00aba9">
-  <meta name="theme-color" content="#ff0000">
+  <meta name="msapplication-TileColor" content="#00aba9" />
+  <meta name="theme-color" content="#ff0000" />
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{- 'assets/images/favicons/favicon-144.png' | relative_url -}}"><!-- iPad Retina-->
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{- 'assets/images/favicons/favicon-114.png' | relative_url -}}"><!--iPhone Retina -->
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{- 'assets/images/favicons/favicon-72.png' | relative_url -}}"><!-- iPad 1 e 2 -->
@@ -41,10 +41,10 @@
   <!--[if IE]><link rel="shortcut icon" href="{{- 'assets/images/favicons/favicon-64.png' | relative_url -}}"><![endif]-->
 
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{{- _page_title -}}">
-  <meta name="twitter:url" content="{{- page.url | absolute_url -}}">
-  <meta name="twitter:description" content="{{- _page_description -}}"/>
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="{{- _page_title -}}" />
+  <meta name="twitter:url" content="{{- page.url | absolute_url -}}" />
+  <meta name="twitter:description" content="{{- _page_description -}}" />
 
   <!-- Open Graph -->
   <meta property="og:title" content="{{- _page_title -}}" />
@@ -54,13 +54,13 @@
   <meta property="og:description" content="{{- _page_description -}}" />
 
   <!-- Naver MetaData -->
-  <meta property="me:feed:serviceId" content="blog">
-  <meta property="naverblog:nickname" content="{{- site.author -}}">
-  <meta property="naverblog:profile_image" content="{{- site.avatar | absolute_url -}}">
+  <meta property="me:feed:serviceId" content="blog" />
+  <meta property="naverblog:nickname" content="{{- site.author -}}" />
+  <meta property="naverblog:profile_image" content="{{- site.avatar | absolute_url -}}" />
 
   <!-- Content-Type -->
-  <meta http-equiv="Content-Script-Type" content="text/javascript">
-  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
   <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
 
   <!-- Styles -->
