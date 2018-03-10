@@ -1,4 +1,4 @@
-<head>
+<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
   {%- if site.google_analytics and jekyll.environment == 'production' -%}
     {%- include google_analytics.html -%}
   {%- endif -%}
@@ -54,6 +54,11 @@
   <meta property="og:url" content="{{- page.url | absolute_url -}}" />
   <meta property="og:site_name" content="{{- site.title | escape -}}" />
   <meta property="og:description" content="{{- _page_description -}}" />
+
+  <!-- Naver MetaData -->
+  <meta property="me:feed:serviceId" content="blog">
+  <meta property="naverblog:nickname" content="{{- site.author -}}">
+  <meta property="naverblog:profile_image" content="{{- site.avatar | absolute_url -}}">
 
   <!-- Content-Type -->
   <meta http-equiv="Content-Script-Type" content="text/javascript">
