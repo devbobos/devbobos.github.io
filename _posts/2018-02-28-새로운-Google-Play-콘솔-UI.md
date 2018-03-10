@@ -5,7 +5,6 @@ comments: true
 tags:
 - GoogleAppExcellence
 ---
-{%- include banner_android.html -%}
 Google App Excellence 5월 세미나는 원래 예정에 없었다는데, Google 내 정책이 변경됨에 따라 공지도 할겸 진행되었다고 한다. 그래서 인지 새로운 API 사용법 및 추가로 지켜야할 정책 준수 사항에 대한 내용이 주를 이루었다. 특히 정책 위반의 경우 앱이 스토어에서 제재를 받고 내려가는 경우도 왕왕 있으니 신경써서 봐야할 듯 싶다. 첫번재 섹션은 Google Play Console의 업데이트 내용 및 활용법이 발표되었다.
 
 ### GooglePlay 개발자 지원팀에 문의하는 방법

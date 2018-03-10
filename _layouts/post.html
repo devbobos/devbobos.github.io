@@ -34,18 +34,35 @@ layout: default
 					{% elsif tag == "Unity" %}
 						{% assign flag = "Unity" %}
 						{% break %}
+					{% elsif tag == "Web" %}
+						{% assign flag = "Web" %}
+						{% break %}
 					{% endif %}
 				{% endfor %}
 				{% if flag == "Android" %}
 				<meta itemprop="url" content="{{- 'assets/images/tags/android.png' | absolute_url -}}">
+				<meta property="og:image" content="{{- 'assets/images/tags/android.png' | absolute_url -}}" />
+				<meta name="twitter:image" content="{{- 'assets/images/tags/android.png' | absolute_url -}}">
 				{% elsif flag == "iOS" %}
 				<meta itemprop="url" content="{{- 'assets/images/tags/ios.png' | absolute_url -}}">
+				<meta property="og:image" content="{{- 'assets/images/tags/ios.png' | absolute_url -}}" />
+				<meta name="twitter:image" content="{{- 'assets/images/tags/ios.png' | absolute_url -}}">
 				{% elsif flag == "GoogleAppExcellence" %}
 				<meta itemprop="url" content="{{- 'assets/images/tags/android.png' | absolute_url -}}">
+				<meta property="og:image" content="{{- 'assets/images/tags/android.png' | absolute_url -}}" />
+				<meta name="twitter:image" content="{{- 'assets/images/tags/android.png' | absolute_url -}}">
 				{% elsif flag == "Unity" %}
 				<meta itemprop="url" content="{{- 'assets/images/tags/unity.jpg' | absolute_url -}}">
+				<meta property="og:image" content="{{- 'assets/images/tags/unity.jpg' | absolute_url -}}" />
+				<meta name="twitter:image" content="{{- 'assets/images/tags/unity.jpg' | absolute_url -}}">
+				{% elsif flag == "Web" %}
+				<meta itemprop="url" content="{{- 'assets/images/tags/web.png' | absolute_url -}}">
+				<meta property="og:image" content="{{- 'assets/images/tags/web.png' | absolute_url -}}" />
+				<meta name="twitter:image" content="{{- 'assets/images/tags/web.png' | absolute_url -}}">
 				{% else %}
 				<meta itemprop="url" content="{{- 'assets/images/favicons/favicon-144.png' | absolute_url -}}">
+				<meta property="og:image" content="{{- 'assets/images/favicons/favicon-144.png' | absolute_url -}}" />
+				<meta name="twitter:image" content="{{- 'assets/images/favicons/favicon-144.png' | absolute_url -}}">
 				{% endif %}
 			</div>
 			<meta itemprop="datePublished" content="{{ page.date }}">
@@ -58,6 +75,17 @@ layout: default
 				<p>{% if page.author %}{{ page.author }}, {% endif %}{{- page.date | date_to_long_string -}}</p>
 				{% include tags.html %}
 			</header>
+			{% if flag == "Android" %}
+				{%- include banner_android.html -%}
+			{% elsif flag == "iOS" %}
+				{%- include banner_ios.html -%}
+			{% elsif flag == "GoogleAppExcellence" %}
+				{%- include banner_android.html -%}
+			{% elsif flag == "Unity" %}
+				{%- include banner_unity.html -%}
+			{% elsif flag == "Web" %}
+				{%- include banner_web.html -%}
+			{% endif %}
 	    {{- content -}}
 			<br>
 			{% include comments.html %}

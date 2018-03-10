@@ -5,7 +5,6 @@ comments: true
 tags:
 - GoogleAppExcellence
 ---
-{%- include banner_android.html -%}
 Google App Excellence 3월 세미나의 두번째 섹션 내용이다. Firebase Marketing 활용에 대한 전반적인 내용을 다루었다.
 
 ### 마케팅의 중요 순서

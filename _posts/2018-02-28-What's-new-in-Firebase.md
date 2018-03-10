@@ -5,7 +5,6 @@ comments: true
 tags:
 - GoogleAppExcellence
 ---
-{%- include banner_android.html -%}
 Google App Excellence 6월 세미나 내용 중 세번째 섹션인 What's new in Firebase이다.
 
 ### Crash Reporting Tool 업데이트

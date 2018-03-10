@@ -5,7 +5,6 @@ comments: true
 tags:
 - GoogleAppExcellence
 ---
-{%- include banner_android.html -%}
 Google App Excellence 10월 내용 중 Yea Studio가 진행한 두번째 세션이다.
 
 <a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-02/2.png' | relative_url }}" alt="ColorFil"></a>

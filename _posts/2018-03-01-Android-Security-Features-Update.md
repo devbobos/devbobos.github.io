@@ -5,7 +5,6 @@ comments: true
 tags:
 - GoogleAppExcellence
 ---
-{%- include banner_android.html -%}
 Google App Excellence 8월 세미나 내용 중 두번째 섹션인 Android Security Features Update이다.
 
 1. OS Features
