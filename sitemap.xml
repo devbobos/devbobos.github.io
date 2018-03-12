@@ -58,7 +58,7 @@ layout: null
   				{% else %}
           <image:loc>{{- 'assets/images/favicons/favicon-144.png' | absolute_url -}}</image:loc>
   				{% endif %}
-           <image:caption>thunbnail</image:caption>
+           <image:caption>thumbnail</image:caption>
         </image:image>
     </url>
     {% endfor %}
