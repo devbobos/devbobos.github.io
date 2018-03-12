@@ -64,6 +64,12 @@
   <meta http-equiv="Content-Style-Type" content="text/css" />
   <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
 
+  <!-- Image MetaData -->
+  {%- if page.layout != "post" -%}
+  <meta name="twitter:image" content="{{- 'assets/images/favicons/favicon-144.png' | absolute_url -}}">
+  <meta property="og:image" content="{{- 'assets/images/favicons/favicon-144.png' | absolute_url -}}">
+  {%- endif -%}
+
   <!-- Styles -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!--[if lte IE 8]><script src="{{- 'assets/js/ie/html5shiv.js' | relative_url -}}" defer></script><![endif]-->
