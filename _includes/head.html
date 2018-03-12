@@ -64,7 +64,7 @@
   <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
 
   <!-- Image MetaData -->
-  {% if page.tags != "" %}
+  {% if page.tags != nil %}
     {% assign flag = "null" %}
     {% for tag in page.tags %}
       {% if tag == "Android" %}
