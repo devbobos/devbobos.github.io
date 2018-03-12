@@ -63,11 +63,47 @@
   <meta http-equiv="Content-Style-Type" content="text/css" />
   <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
 
-  {%- if page.layout != "post" -%}
   <!-- Image MetaData -->
+  {% if page.tags != "" %}
+    {% assign flag = "null" %}
+    {% for tag in page.tags %}
+      {% if tag == "Android" %}
+        {% assign flag = "Android" %}
+        {% break %}
+      {% elsif tag == "iOS" %}
+        {% assign flag = "iOS" %}
+        {% break %}
+      {% elsif tag == "GoogleAppExcellence" %}
+        {% assign flag = "GoogleAppExcellence" %}
+        {% break %}
+      {% elsif tag == "Unity" %}
+        {% assign flag = "Unity" %}
+        {% break %}
+      {% elsif tag == "Web" %}
+        {% assign flag = "Web" %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+    {% if flag == "Android" %}
+    <meta property="og:image" content="{{- 'assets/images/tags/android.png' | absolute_url -}}" />
+    <meta name="twitter:image" content="{{- 'assets/images/tags/android.png' | absolute_url -}}">
+    {% elsif flag == "iOS" %}
+    <meta property="og:image" content="{{- 'assets/images/tags/ios.png' | absolute_url -}}" />
+    <meta name="twitter:image" content="{{- 'assets/images/tags/ios.png' | absolute_url -}}">
+    {% elsif flag == "GoogleAppExcellence" %}
+    <meta property="og:image" content="{{- 'assets/images/tags/android.png' | absolute_url -}}" />
+    <meta name="twitter:image" content="{{- 'assets/images/tags/android.png' | absolute_url -}}">
+    {% elsif flag == "Unity" %}
+    <meta property="og:image" content="{{- 'assets/images/tags/unity.jpg' | absolute_url -}}" />
+    <meta name="twitter:image" content="{{- 'assets/images/tags/unity.jpg' | absolute_url -}}">
+    {% elsif flag == "Web" %}
+    <meta property="og:image" content="{{- 'assets/images/tags/web.png' | absolute_url -}}" />
+    <meta name="twitter:image" content="{{- 'assets/images/tags/web.png' | absolute_url -}}">
+    {% endif %}
+  {% else %}
   <meta name="twitter:image" content="{{- 'assets/images/favicons/favicon-200.png' | absolute_url -}}">
   <meta property="og:image" content="{{- 'assets/images/favicons/favicon-200.png' | absolute_url -}}">
-  {%- endif -%}
+  {% endif %}
 
   <!-- Styles -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
