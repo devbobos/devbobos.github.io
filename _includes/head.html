@@ -1,5 +1,4 @@
 <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
-  <!-- Google Analytics -->
   {%- if site.google_analytics and jekyll.environment == 'production' -%}
     {%- include google_analytics.html -%}
   {%- endif -%}
@@ -64,8 +63,8 @@
   <meta http-equiv="Content-Style-Type" content="text/css" />
   <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
 
-  <!-- Image MetaData -->
   {%- if page.layout != "post" -%}
+  <!-- Image MetaData -->
   <meta name="twitter:image" content="{{- 'assets/images/favicons/favicon-144.png' | absolute_url -}}">
   <meta property="og:image" content="{{- 'assets/images/favicons/favicon-144.png' | absolute_url -}}">
   {%- endif -%}
