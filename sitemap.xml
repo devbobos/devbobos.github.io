@@ -2,7 +2,7 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     {%- assign _posts = site.posts | sort: 'date' | reverse -%}
     {%- for _post in _posts -%}
     <url>
@@ -24,6 +24,42 @@ layout: null
         {% else %}
         <priority>{{ _post.sitemap.priority }}</priority>
         {% endif %}
+        <!-- image -->
+        {% assign flag = "null" %}
+				{% for tag in _post.tags %}
+					{% if tag == "Android" %}
+						{% assign flag = "Android" %}
+						{% break %}
+					{% elsif tag == "iOS" %}
+						{% assign flag = "iOS" %}
+						{% break %}
+					{% elsif tag == "GoogleAppExcellence" %}
+						{% assign flag = "GoogleAppExcellence" %}
+						{% break %}
+					{% elsif tag == "Unity" %}
+						{% assign flag = "Unity" %}
+						{% break %}
+					{% elsif tag == "Web" %}
+						{% assign flag = "Web" %}
+						{% break %}
+					{% endif %}
+				{% endfor %}
+        <image:image>
+  				{% if flag == "Android" %}
+          <image:loc>{{- 'assets/images/tags/android.png' | absolute_url -}}</image:loc>
+  				{% elsif flag == "iOS" %}
+          <image:loc>{{- 'assets/images/tags/ios.png' | absolute_url -}}</image:loc>
+  				{% elsif flag == "GoogleAppExcellence" %}
+  				<image:loc>{{- 'assets/images/tags/android.png' | absolute_url -}}</image:loc>
+  				{% elsif flag == "Unity" %}
+          <image:loc>{{- 'assets/images/tags/unity.jpg' | absolute_url -}}</image:loc>
+  				{% elsif flag == "Web" %}
+          <image:loc>{{- 'assets/images/tags/web.png' | absolute_url -}}</image:loc>
+  				{% else %}
+          <image:loc>{{- 'assets/images/favicons/favicon-144.png' | absolute_url -}}</image:loc>
+  				{% endif %}
+           <image:caption>thunbnail</image:caption>
+        </image:image>
     </url>
     {% endfor %}
 </urlset>
