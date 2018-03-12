@@ -5,14 +5,14 @@ layout: default
 {%- include header.html scrolly_nav=_posts -%}
 <!-- Main -->
 <div id="main">
+	<!-- MetaData -->
+	<meta property="og:image" content="{{- 'assets/images/favicons/favicon-144.png' | absolute_url -}}" />
+	<meta name="twitter:image" content="{{- 'assets/images/favicons/favicon-144.png' | absolute_url -}}">
 	{%- if page.content != "" -%}
 		{%- include section.html title=page.title photo=page.cover-photo photo-alt=page.cover-photo-alt auto-header=page.auto-header content=page.content -%}
 	{%- endif -%}
 	<!-- Posts List -->
 	{%- for _post in _posts -%}
-		<!-- MetaData -->
-		<meta property="og:image" content="{{- 'assets/images/favicons/favicon-144.png' | absolute_url -}}" />
-		<meta name="twitter:image" content="{{- 'assets/images/favicons/favicon-144.png' | absolute_url -}}">
 		<!-- Header -->
 		{%- capture _title -%}
 			<a href="{{- _post.url | absolute_url -}}">{{- _post.title -}}</a>
