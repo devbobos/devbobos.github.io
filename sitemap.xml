@@ -67,8 +67,8 @@ layout: null
         <xhtml:link
                  rel="alternate"
                  hreflang="ko"
-                 href="{{- _post.url | absolute_url -}}"
-                 />
+                 href="{{- _post.url | absolute_url -}}">
+         </xhtml:link>
     </url>
     {% endfor %}
 </urlset>
