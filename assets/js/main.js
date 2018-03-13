@@ -16,6 +16,7 @@
 
 	$(function() {
 
+		/*
 		//AppCache Loading
 		window.addEventListener('load', function(e) {
             window.applicationCache.addEventListener('updateready', function(e) {
@@ -28,6 +29,7 @@
                 } else {}
             },false);
         },false);
+				*/
 
 		var	$window = $(window),
 			$body = $('body');
@@ -53,6 +55,7 @@
 					skel.breakpoint('mobile').active
 				);
 			});
+
 
 		// Scrolly links.
 			$('.scrolly').scrolly();
