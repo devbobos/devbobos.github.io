@@ -8,7 +8,7 @@
   {%- unless page.canonical == false -%}<link rel="canonical" href="{{- page.url | absolute_url -}}" />{%- endunless -%}
   <meta name="referrer" content="always" />
 
-  <!-- Title, description, author -->
+  <!-- Title, Description, Author, Keywords -->
   {%- capture _page_title -%}
     {%- if page.title != "블로그" -%}
       {%- if page.title -%}{{- page.title | append: ' | ' -}}{%- endif -%}
@@ -24,6 +24,12 @@
   <meta name="author" content="{{- site.author -}}" />
   <meta name="apple-mobile-web-app-title" content="{{- _page_title -}}" />
   <meta name="keywords" content="Developer,Android,iOS,Swift,Web,Programmer,Xcode,Mac,Java,devbobos,bobos,개발,블로그,웹,안드로이드,자바" />
+
+  <!-- Content-Type -->
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+  <meta charset="utf-8" />
 
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="{{- 'assets/images/favicons/apple-touch-icon.png' | relative_url -}}">
@@ -60,12 +66,6 @@
   <meta property="me:feed:serviceId" content="blog" />
   <meta property="naverblog:nickname" content="{{- site.author -}}" />
   <meta property="naverblog:profile_image" content="{{- 'assets/images/site/avatar.jpg' | relative_url -}}" />
-
-  <!-- Content-Type -->
-  <meta http-equiv="Content-Script-Type" content="text/javascript" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
-  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
-  <meta charset="utf-8" />
 
   <!-- Image MetaData -->
   {% if page.tags != nil %}
