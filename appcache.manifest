@@ -2,13 +2,25 @@ CACHE MANIFEST
 # version 2018-03-14
 
 CACHE:
+# css
 https://devbobos.github.io/assets/css/font-awesome.min.css
 https://devbobos.github.io/assets/css/main.css
 https://devbobos.github.io/assets/css/tags.css
+https://devbobos.github.io/assets/css/ie8.css
+https://devbobos.github.io/assets/css/ie9.css
+
+# javascript
 https://devbobos.github.io/assets/js/jquery.scrolly.min.js
 https://devbobos.github.io/assets/js/jquery.scrollzer.min.js
 https://devbobos.github.io/assets/js/skel.min.js
 https://devbobos.github.io/assets/js/util.js
+
+# image
+https://devbobos.github.io/assets/css/images/overlay.png
+https://devbobos.github.io/assets/images/tags/android.png
+https://devbobos.github.io/assets/images/tags/web.png
+https://devbobos.github.io/assets/images/tags/unity.jpg
+https://devbobos.github.io/assets/images/tags/ios.gif
 
 NETWORK:
 *
