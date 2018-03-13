@@ -260,9 +260,11 @@
 	.image {
 		display: inline-block;
 		border: 0;
-    pointer-events: none;
-    cursor: default;
-
+    
+    a {
+      pointer-events: none;
+      cursor: default;
+    }
 		img {
 			display: block;
       width:100%;
