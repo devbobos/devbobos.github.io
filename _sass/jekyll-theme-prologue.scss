@@ -260,7 +260,6 @@
 	.image {
 		display: inline-block;
 		border: 0;
-
     pointer-events: none;
     cursor: default;
 
@@ -272,7 +271,7 @@
 		&.avatar48 {
 			width: 48px;
 			height: 48px;
-			background: #f00;
+			background: #00aba9;
 
 			img {
 				width: 48px;
