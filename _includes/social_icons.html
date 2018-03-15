@@ -31,7 +31,10 @@
   <li><a href="mailto:{{- site.email -}}" class="icon fa-envelope"><span class="label">Email</span></a></li>
   {%- endif -%}
   {%- if site.telegram_url -%}
-  <li><a href="" class="icon fa-telegram-plane"><span class="label">Telegram</span></a></li>
+  <li><a href="{{- site.telegram_url -}}" class="icon fa-telegram-plane"><span class="label">Telegram</span></a></li>
+  {%- endif -%}
+  {%- if site.soundcloud_url -%}
+  <li><a href="{{- site.soundcloud_url -}}" class="icon fa-soundcloud"><span class="label">Soundcloud</span></a></li>
   {%- endif -%}
   {%- if site.rss_url -%}
   <li><a href="{{- site.rss_url -}}" class="icon fa-rss"><span class="label">RSS</span></a></li>

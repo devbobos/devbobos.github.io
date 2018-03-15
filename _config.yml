@@ -45,15 +45,16 @@ url: "https://devbobos.github.io" # the base hostname & protocol for your site
 encoding: utf-8
 
 # Social settings
-facebook_url:
+facebook_url: https://www.facebook.com/bokwang.son
 github_url: https://github.com/devbobos
 googleplus_url:
-instagram_url:
+instagram_url: https://www.instagram.com/bokwangson/
 linkedin_url:
 pinterest_url:
 slack_url:
 twitter_url: https://twitter.com/devbobos
 telegram_url:
+soundcloud_url: https://soundcloud.com/bokwang-son
 rss_url: https://devbobos.github.io/feed.xml
 
 # Google Analytics Tracking ID goes here:

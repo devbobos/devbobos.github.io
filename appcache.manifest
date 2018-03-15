@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# version 2018-03-14
+# version 2018-03-15
 
 CACHE:
 # css
@@ -22,7 +22,13 @@ https://devbobos.github.io/assets/images/tags/web.png
 https://devbobos.github.io/assets/images/tags/unity.jpg
 https://devbobos.github.io/assets/images/tags/ios.gif
 
+# font
+https://devbobos.github.io/assets/fonts/fontawesome-webfont.woff2?v=4.6.3
+https://devbobos.github.io/assets/fonts/NotoSans-Medium.woff2
+https://devbobos.github.io/assets/fonts/NotoSans-Thin.woff2
+
 NETWORK:
 *
 
 FALLBACK:
+https://devbobos.github.io/404.html
