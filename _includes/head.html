@@ -109,6 +109,29 @@
   <meta property="og:image" content="{{- 'assets/images/favicons/favicon-200.png' | absolute_url -}}">
   {% endif %}
 
+  <!-- Structured Data (Person) -->
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "name": "devbobos",
+    "url": "https://devbobos.github.io",
+    "sameAs": [
+      "https://www.facebook.com/bokwang.son",
+      "https://www.instagram.com/bokwangson",
+      "https://twitter.com/devbobos",
+      "https://soundcloud.com/bokwang-son"
+    ]
+  }
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" charset="utf-8" defer></script>
+  <script src="{{- 'assets/js/jquery.scrolly.min.js' | relative_url -}}" charset="utf-8" defer></script>
+  <script src="{{- 'assets/js/jquery.scrollzer.min.js' | relative_url -}}" charset="utf-8" defer></script>
+  <script src="{{- 'assets/js/skel.min.js' | relative_url -}}" charset="utf-8" defer></script>
+  <script src="{{- 'assets/js/util.js' | relative_url -}}" charset="utf-8" defer></script>
+  <!--[if lte IE 8]><script src="{{- 'assets/js/ie/respond.min.js' | relative_url -}}" defer></script><![endif]-->
+  <script src="{{- 'assets/js/main.js' | relative_url -}}" charset="utf-8" defer></script>
+
   <!-- Styles -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!--[if lte IE 8]><script src="{{- 'assets/js/ie/html5shiv.js' | relative_url -}}" defer></script><![endif]-->
@@ -116,14 +139,4 @@
   <link rel="stylesheet" href="{{- 'assets/css/tags.css' | relative_url -}}" />
   <!--[if lte IE 8]><link rel="stylesheet" href="{{- 'assets/css/ie8.css' | relative_url -}}" /><![endif]-->
   <!--[if lte IE 9]><link rel="stylesheet" href="{{- 'assets/css/ie9.css' | relative_url -}}" /><![endif]-->
-
-  <!-- Scripts -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" charset="utf-8" defer></script>
-  <script src="{{- 'assets/js/jquery.scrolly.min.js' | relative_url -}}" charset="utf-8" defer></script>
-  <script src="{{- 'assets/js/jquery.scrollzer.min.js' | relative_url -}}" charset="utf-8" defer></script>
-  <script src="{{- 'assets/js/skel.min.js' | relative_url -}}" charset="utf-8" defer></script>
-  <script src="{{- 'assets/js/util.js' | relative_url -}}" charset="utf-8" defer></script>
-  <script src="{{- 'assets/js/meta.js' | relative_url -}}" type="application/ld+json"></script>
-  <!--[if lte IE 8]><script src="{{- 'assets/js/ie/respond.min.js' | relative_url -}}" defer></script><![endif]-->
-  <script src="{{- 'assets/js/main.js' | relative_url -}}" charset="utf-8" defer></script>
 </head>
