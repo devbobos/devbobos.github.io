@@ -15,19 +15,7 @@
 	});
 
 	$(function() {
-		//Structured Data - personal
-		{
-		  "@context": "http://schema.org",
-		  "@type": "Person",
-		  "name": "devbobos",
-		  "url": "https://devbobos.github.io",
-		  "sameAs": [
-		    "https://www.facebook.com/bokwang.son",
-		    "https://www.instagram.com/bokwangson",
-		    "https://twitter.com/devbobos",
-		    "https://soundcloud.com/bokwang-son"
-		  ]
-		}
+
 		//AppCache Loading
 		window.addEventListener('load', function(e) {
             window.applicationCache.addEventListener('updateready', function(e) {
