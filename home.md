@@ -201,7 +201,7 @@ description: devbobos의 현재 모습입니다, 계속해서 배워 나가려�
       </tr>
       <tr>
         <td class="about-table-item"><p>PHP</p></td>
-        <td colspan="4">
+        <td class="about-table-item" colspan="4">
           <div class="progress">
               <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
                   <span class="sr-only">80% Complete (success)</span>
@@ -211,7 +211,7 @@ description: devbobos의 현재 모습입니다, 계속해서 배워 나가려�
       </tr>
       <tr>
         <td class="about-table-item"><p>HTML</p></td>
-        <td colspan="4" >
+        <td class="about-table-item" colspan="4" >
           <div class="progress">
               <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
                   <span class="sr-only">80% Complete (success)</span>
@@ -221,7 +221,7 @@ description: devbobos의 현재 모습입니다, 계속해서 배워 나가려�
       </tr>
       <tr>
         <td class="about-table-item"><p>CSS</p></td>
-        <td colspan="4" >
+        <td class="about-table-item" colspan="4" >
           <div class="progress">
               <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
                   <span class="sr-only">80% Complete (success)</span>
@@ -231,7 +231,7 @@ description: devbobos의 현재 모습입니다, 계속해서 배워 나가려�
       </tr>
       <tr>
         <td class="about-table-item"><p>Javascript</p></td>
-        <td colspan="4" >
+        <td class="about-table-item" colspan="4" >
           <div class="progress">
               <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
                   <span class="sr-only">80% Complete (success)</span>
@@ -241,7 +241,7 @@ description: devbobos의 현재 모습입니다, 계속해서 배워 나가려�
       </tr>
       <tr>
         <td class="about-table-item"><p>C/C++</p></td>
-        <td colspan="4" >
+        <td class="about-table-item" colspan="4" >
           <div class="progress">
               <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
                   <span class="sr-only">80% Complete (success)</span>
@@ -251,7 +251,7 @@ description: devbobos의 현재 모습입니다, 계속해서 배워 나가려�
       </tr>
       <tr>
         <td class="about-table-item"><p>Java</p></td>
-        <td colspan="4" >
+        <td class="about-table-item" colspan="4" >
           <div class="progress">
               <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
                   <span class="sr-only">80% Complete (success)</span>
@@ -261,7 +261,7 @@ description: devbobos의 현재 모습입니다, 계속해서 배워 나가려�
       </tr>
       <tr>
         <td class="about-table-item"><p>Android</p></td>
-        <td colspan="4" >
+        <td class="about-table-item" colspan="4" >
           <div class="progress">
               <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
                   <span class="sr-only">80% Complete (success)</span>
@@ -271,7 +271,7 @@ description: devbobos의 현재 모습입니다, 계속해서 배워 나가려�
       </tr>
       <tr>
         <td class="about-table-item"><p>Objective C</p></td>
-        <td colspan="4" >
+        <td class="about-table-item" colspan="4" >
           <div class="progress">
               <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
                   <span class="sr-only">80% Complete (success)</span>
@@ -281,7 +281,7 @@ description: devbobos의 현재 모습입니다, 계속해서 배워 나가려�
       </tr>
       <tr>
         <td class="about-table-item"><p>Swift</p></td>
-        <td colspan="4" >
+        <td class="about-table-item" colspan="4" >
           <div class="progress">
               <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
                   <span class="sr-only">80% Complete (success)</span>
