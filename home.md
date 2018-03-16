@@ -54,12 +54,8 @@ description: devbobos의 현재 모습입니다, 계속해서 배워 나가려�
   border: 0;
 }
 .about-table {
-  p {
   margin-bottom: 0px;
-  }
-  table td{
-    padding: 0em 1em 0.5em 1em;
-  }
+  padding: 0em 1em 0.5em 1em;
 }
 @media (max-width:360px){
   .about-table {
