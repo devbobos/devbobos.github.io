@@ -53,9 +53,14 @@ description: devbobos의 현재 모습입니다, 계속해서 배워 나가려�
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+.about-table {
+  p {
+  margin-bottom: 0px;
+  }
+}
 @media (max-width:360px){
   .about-table {
-  font-size:10px;
+    font-size: 10px;
   }
   .progress {
       height: 10px;
