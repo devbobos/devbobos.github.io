@@ -53,7 +53,7 @@ description: devbobos의 현재 모습입니다, 계속해서 배워 나가려�
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-.about-table-item {
+td.about-table-item {
   margin-bottom: 0px;
   vertical-align: top;
   p {
