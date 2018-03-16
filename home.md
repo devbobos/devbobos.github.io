@@ -56,9 +56,9 @@ description: devbobos의 현재 모습입니다, 계속해서 배워 나가려�
 td.about-table-item {
   vertical-align: top;
   padding: 0em 1em 0.5em 1em;
-  p {
-    margin-bottom: 0px;
-  }
+}
+td.about-table-item p {
+  margin-bottom: 0px;
 }
 @media (max-width:360px){
   .about-table {
