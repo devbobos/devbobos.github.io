@@ -53,9 +53,9 @@ description: devbobos의 현재 모습입니다, 계속해서 배워 나가려�
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-.about-table {
+.about-table-item {
   margin-bottom: 0px;
-  padding: 0em 1em 0.5em 1em;
+  vertical-align: top;
 }
 @media (max-width:360px){
   .about-table {
@@ -199,7 +199,7 @@ description: devbobos의 현재 모습입니다, 계속해서 배워 나가려�
         <td>Expert</td>
       </tr>
       <tr>
-        <td style="vertical-align: top;" valign="top"><p>PHP</p></td>
+        <td class="about-table-item"><p>PHP</p></td>
         <td colspan="4">
           <div class="progress">
               <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
@@ -209,7 +209,7 @@ description: devbobos의 현재 모습입니다, 계속해서 배워 나가려�
         </td>
       </tr>
       <tr>
-        <td style="vertical-align: top;" valign="top"><p>HTML</p></td>
+        <td class="about-table-item"><p>HTML</p></td>
         <td colspan="4" >
           <div class="progress">
               <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
@@ -219,7 +219,7 @@ description: devbobos의 현재 모습입니다, 계속해서 배워 나가려�
         </td>
       </tr>
       <tr>
-        <td style="vertical-align: top;" valign="top"><p>CSS</p></td>
+        <td class="about-table-item"><p>CSS</p></td>
         <td colspan="4" >
           <div class="progress">
               <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
@@ -229,7 +229,7 @@ description: devbobos의 현재 모습입니다, 계속해서 배워 나가려�
         </td>
       </tr>
       <tr>
-        <td style="vertical-align: top;" valign="top"><p>Javascript</p></td>
+        <td class="about-table-item"><p>Javascript</p></td>
         <td colspan="4" >
           <div class="progress">
               <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
@@ -239,7 +239,7 @@ description: devbobos의 현재 모습입니다, 계속해서 배워 나가려�
         </td>
       </tr>
       <tr>
-        <td style="vertical-align: top;" valign="top"><p>C/C++</p></td>
+        <td class="about-table-item"><p>C/C++</p></td>
         <td colspan="4" >
           <div class="progress">
               <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
@@ -249,7 +249,7 @@ description: devbobos의 현재 모습입니다, 계속해서 배워 나가려�
         </td>
       </tr>
       <tr>
-        <td style="vertical-align: top;" valign="top"><p>Java</p></td>
+        <td class="about-table-item"><p>Java</p></td>
         <td colspan="4" >
           <div class="progress">
               <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
@@ -259,7 +259,7 @@ description: devbobos의 현재 모습입니다, 계속해서 배워 나가려�
         </td>
       </tr>
       <tr>
-        <td style="vertical-align: top;" valign="top"><p>Android</p></td>
+        <td class="about-table-item"><p>Android</p></td>
         <td colspan="4" >
           <div class="progress">
               <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
@@ -269,7 +269,7 @@ description: devbobos의 현재 모습입니다, 계속해서 배워 나가려�
         </td>
       </tr>
       <tr>
-        <td style="vertical-align: top;" valign="top"><p>Objective C</p></td>
+        <td class="about-table-item"><p>Objective C</p></td>
         <td colspan="4" >
           <div class="progress">
               <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
@@ -279,7 +279,7 @@ description: devbobos의 현재 모습입니다, 계속해서 배워 나가려�
         </td>
       </tr>
       <tr>
-        <td style="vertical-align: top;" valign="top"><p>Swift</p></td>
+        <td class="about-table-item"><p>Swift</p></td>
         <td colspan="4" >
           <div class="progress">
               <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
