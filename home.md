@@ -153,7 +153,7 @@ td.about-table-item p {
         <strong>유수소프트</strong>
         <ul>
           <li>기획 및 Android, iOS 개발</li>
-          <li>Server 및 Databse 설계</li>
+          <li>Server 및 Database 설계</li>
         </ul>
       </td>
     </tr>
