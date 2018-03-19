@@ -1,0 +1,38 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    {%- assign _posts = site.posts | sort: 'date' | reverse -%}
+    {%- for _post in _posts -%}
+    <url>
+        <loc>{{- _post.url | absolute_url -}}</loc>
+        {% if post.lastmod == null %}
+        <lastmod>{{ _post.date | date_to_xmlschema }}</lastmod>
+        {% else %}
+        <lastmod>{{ _post.lastmod | date_to_xmlschema }}</lastmod>
+        {% endif %}
+
+        {% if post.sitemap.changefreq == null %}
+        <changefreq>weekly</changefreq>
+        {% else %}
+        <changefreq>{{ _post.sitemap.changefreq }}</changefreq>
+        {% endif %}
+
+        {% if post.sitemap.priority == null %}
+        <priority>0.5</priority>
+        {% else %}
+        <priority>{{ _post.sitemap.priority }}</priority>
+        {% endif %}
+        <xhtml:link
+                 rel="alternate"
+                 hreflang="ko"
+                 href="{{- _post.url | absolute_url -}}">
+         </xhtml:link>
+    </url>
+    {% endfor %}
+</urlset>
