@@ -18,7 +18,7 @@ Android는 환경설정 등의 영구적으로 보관할 데이터들을 SharedP
 </div>
 <div class="6u 12u$(mobile)">
 <div class="item">
-<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-20/1.png' | relative_url }}" alt="SharedPreferences" style="width:100%;"></a>
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-20/2.png' | relative_url }}" alt="SharedPreferences" style="width:100%;"></a>
 <header>
 <h3>패키지 네임 폴더안에 저장된 파일들</h3>
 </header>
