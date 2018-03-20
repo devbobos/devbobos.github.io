@@ -45,7 +45,7 @@ url: "https://devbobos.github.io" # the base hostname & protocol for your site
 encoding: utf-8
 
 # Social settings
-facebook_url:
+facebook_url: https://www.facebook.com/bokwang.son
 github_url: https://github.com/devbobos
 googleplus_url:
 instagram_url: https://www.instagram.com/bokwangson

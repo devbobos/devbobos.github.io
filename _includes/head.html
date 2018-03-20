@@ -114,12 +114,21 @@
   {
     "@context": "http://schema.org",
     "@type": "Person",
-    "name": "devbobos",
-    "url": "https://devbobos.github.io",
+    "name": "{{- site.author -}}",
+    "url": "{{- page.url | absolute_url -}}",
     "sameAs": [
-      "https://www.instagram.com/bokwangson",
-      "https://twitter.com/devbobos",
-      "https://soundcloud.com/bokwang-son"
+      {%- if site.facebook_url -%}
+      "{{- site.facebook_url -}}",
+      {%- endif -%}
+      {%- if site.instagram_url -%}
+      "{{- site.instagram_url -}}",
+      {%- endif -%}
+      {%- if site.twitter_url -%}
+      "{{- site.twitter_url -}}",
+      {%- endif -%}
+      {%- if site.soundcloud_url -%}
+      "{{- site.soundcloud_url -}}",
+      {%- endif -%}
     ]
   }
   </script>
