@@ -14,7 +14,7 @@
       {%- if page.title -%}{{- page.title | append: ' | ' -}}{%- endif -%}
       {{- site.title | default: "Untitled Website" -}}
     {% else %}
-      {{- site.name -}}
+      {{- site.sitename -}}
     {%- endif -%}
   {%- endcapture -%}
   {%- assign _page_title = _page_title | escape -%}
