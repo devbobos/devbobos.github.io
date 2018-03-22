@@ -5,7 +5,7 @@
 
   <!-- Robots -->
   <meta name="robots" content="{{- page.robots | default: 'index, follow' -}}" />
-  {%- unless page.canonical == false -%}<link rel="canonical" href="{{- page.url | absolute_url -}}" />{%- endunless -%}
+  {%- unless page.canonical == false -%}<link rel="canonical" href="{{- '/' | absolute_url -}}" />{%- endunless -%}
   <meta name="referrer" content="always" />
 
   <!-- Title, Description, Author, Keywords -->
@@ -14,7 +14,7 @@
       {%- if page.title -%}{{- page.title | append: ' | ' -}}{%- endif -%}
       {{- site.title | default: "Untitled Website" -}}
     {% else %}
-      devbobos 블로그
+      {{- site.name -}}
     {%- endif -%}
   {%- endcapture -%}
   {%- assign _page_title = _page_title | escape -%}
