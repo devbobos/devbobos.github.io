@@ -30,7 +30,7 @@ layout: null
     </author>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <published>{{ post.date | date_to_xmlschema }}</published>
-    <link rel="via" href="{{- '/' | absolute_url -}}" title="{{- site.name -}}"/>
+    <link rel="via" href="{{- '/' | absolute_url -}}" title="{{- site.sitename -}}"/>
     <content type="html">
     <![CDATA[
     {{ post.content | xml_escape }}
@@ -38,7 +38,7 @@ layout: null
     </content>
     <summary type="text">
     <![CDATA[
-    {%- capture _excerpt -%}{{- post.excerpt | strip_html | truncatewords: 100 -}}{%- endcapture -%}
+    {{- post.excerpt | strip_html | truncatewords: 100 -}}
     ]]>
     </summary>
     {% assign flag = "null" %}
