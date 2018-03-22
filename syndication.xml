@@ -1,3 +1,6 @@
+---
+layout: null
+---
 <feed xmlns="http://webmastertool.naver.com">
   <id>{{- '/' | absolute_url -}}</id><!-- 피드 문서를 담고있는 카테고리 URL -->
   <title>Syndication Document</title><!-- 피드 문서를 나타내는 제목 -->
