@@ -33,7 +33,7 @@ layout: null
     <link rel="via" href="{{- '/' | absolute_url -}}" title="{{- site.sitename -}}"/>
     <content type="html">
     <![CDATA[
-    {{ post.content | xml_escape }}
+    {{ post.content }}
     ]]>
     </content>
     <summary type="text">
