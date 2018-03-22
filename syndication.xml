@@ -2,15 +2,20 @@
 layout: null
 ---
 <feed xmlns="http://webmastertool.naver.com">
-  <id>{{- '/' | absolute_url -}}</id><!-- 피드 문서를 담고있는 카테고리 URL -->
-  <title>Syndication Document</title><!-- 피드 문서를 나타내는 제목 -->
-  <author><!-- 작성자 정보 -->
+  <!-- 피드 문서를 담고있는 카테고리 URL -->
+  <id>{{- '/' | absolute_url -}}</id>
+  <!-- 피드 문서를 나타내는 제목 -->
+  <title>Syndication Document</title>
+  <!-- 작성자 정보 -->
+  <author>
     <name>{{- site.author -}}</name>
     <url>{{- '/' | absolute_url -}}</url>
     <email>{{- site.email -}}</email>
   </author>
-  <updated>{{- site.time | date_to_xmlschema -}}</updated><!-- 신디케이션 문서 작성 시간 -->
-  <link rel="site" href="{{- '/' | absolute_url -}}" title="{{- site.name -}}"/><!-- 웹사이트 정보 -->
+  <!-- 신디케이션 문서 작성 시간 -->
+  <updated>{{- site.time | date_to_xmlschema -}}</updated>
+  <!-- 웹사이트 정보 -->
+  <link rel="site" href="{{- '/' | absolute_url -}}" title="{{- site.sitename -}}"/>
   <!-- 포스팅 정보 (최대 100개, 50MB 이하로 제한) -->
   {% for post in site.posts limit:100 %}
   <entry>
