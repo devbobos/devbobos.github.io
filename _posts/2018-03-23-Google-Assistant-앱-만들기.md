@@ -67,7 +67,7 @@ Google은 Google Assistant의 오픈 개발 플랫폼인 [Actions on Google](htt
 - 서버를 쓰기 때문에 당연히 연동할 Backend 서버가 따로 필요하며 구현해줘야 한다. Google 측에서는 [Firebase CloudFuntion](https://firebase.google.com/docs/functions/?hl=ko) 사용을 추천했다.
 - 아직 머신러닝 기능은 사용할 수 없는데 차차 개발할 예정이라고 한다.
 <div class="row">
-<div class="12u 6u$(mobile)">
+<div class="6u 12u$(mobile)">
 <div class="item">
 <a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-23/15.png' | relative_url }}" alt="DialogFlow"></a>
 <header>
@@ -116,7 +116,7 @@ Google은 Google Assistant의 오픈 개발 플랫폼인 [Actions on Google](htt
 ### Google Assistant의 출력 방법
 SSML 포멧을 사용하여 미리 지정해놓은 텍스트, 음성, 사운드 이 세가지 방법으로 출력할 수 있다. 포켓몬으로 유명한 GameFreak사는 음성 출력을 사용해 PicachuTalk라는 앱을 냈는데 아주 잘나간다고 한다. 이름 그대로 말을 걸면 피카츄 소리가 나오는 앱이다 (..)
 <div class="row">
-<div class="12u 6u$(mobile)">
+<div class="6u 12u$(mobile)">
 <div class="item">
 <a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-23/13.jpg' | relative_url }}" alt="PicachuTalk"></a>
 <header>
@@ -129,7 +129,7 @@ SSML 포멧을 사용하여 미리 지정해놓은 텍스트, 음성, 사운드 
 ## Google Assistant 스토어
 Google Assistant SDK를 사용하여 만든 개발자의 앱은 GoogleAssistant 앱만 따로 정리된 스토어에서 확인 가능하며, 스토어는 홈버튼을 일정 시간동안 눌러 GoogleAssistant를 활성화 시킨 후 오른쪽 상단에 있는 파랑색 버튼을 누르면 진입 가능하다. 앱은 고유명사로 해야하며 되도록이면 한 단어로 해야 심사를 쉽게 통과 할수있다 카더라. 뭐 실제 마켓을 보면 꼭 한 단어 이름의 앱만 있는건 아니고 다양한 이름을 갖고 있는데 **앱의 이름은 GoogleAssistant에서 URL처럼 앱을 지칭 및 호출하는 지시어로 동작** 하기 때문에 되도록이면 기억하기 쉽게 짧은 단어를 사용하는 것이 좋다고 하더라. 스토어를 통하지 않고 앱을 노출시키려면 사용자가 *"OK Google, 비트코인 시세 봇 불러줘"* 로 직접 이름을 호출하거나 Google Assistant의 비슷한 앱 추천밖에는 방법이 없다.
 <div class="row">
-<div class="12u 6u$(mobile)">
+<div class="6u 12u$(mobile)">
 <div class="item">
 <a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-23/8.png' | relative_url }}" alt="google Assistant"></a>
 <header>
@@ -137,7 +137,7 @@ Google Assistant SDK를 사용하여 만든 개발자의 앱은 GoogleAssistant 
 </header>
 </div>
 </div>
-<div class="12u 6u$(mobile)">
+<div class="6u 12u$(mobile)">
 <div class="item">
 <a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-23/1.png' | relative_url }}" alt="google Assistant"></a>
 <header>
@@ -155,7 +155,7 @@ Google Assistant SDK를 사용하여 만든 개발자의 앱은 GoogleAssistant 
 
 PS. 참고로 여느때처럼 간식으로 쿠키와 피자 치킨이 나왔다 ^q^
 <div class="row">
-<div class="12u 6u$(mobile)">
+<div class="6u 12u$(mobile)">
 <div class="item">
 <a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-23/5.jpg' | relative_url }}" alt="cookie"></a>
 <header>
@@ -163,7 +163,7 @@ PS. 참고로 여느때처럼 간식으로 쿠키와 피자 치킨이 나왔다 
 </header>
 </div>
 </div>
-<div class="12u 6u$(mobile)">
+<div class="6u 12u$(mobile)">
 <div class="item">
 <a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-23/3.jpg' | relative_url }}" alt="pizza chicken"></a>
 <header>
