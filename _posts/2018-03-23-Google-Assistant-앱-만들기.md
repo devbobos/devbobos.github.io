@@ -5,7 +5,7 @@ comments: true
 tags:
 - GoogleAppExcellence
 ---
-<p><span class="image right"><img src="{{ 'assets/images/2018-03-23/4.jpg' | relative_url }}" alt="GoogleAppExcellence" /></span>3월 22일의 GoogleAppExcellence에서는 이제부터 세미나에서 섹션을 교육적인거 하나 협력사 발표 하나 형식으로 바꿔서 체계적으로 세미나가 진행될것이라고 발표하였다. 협력사 발표 섹션은 Snow의 Foodie 성공기가 다뤄졌는데 "대충했는데 운이 좋아서 성공했어요" 라는 전혀 쓸모없는 내용이었기 때문에 따로 포스팅을 하지 않을 생각이고 교육적인 섹션에서 다뤄졌던 **Google Assistant** 에 대한 내용을 이번 포스팅에 다뤄볼 생각이다.</p>
+<p><span class="image right"><img src="{{ 'assets/images/2018-03-23/4.jpg' | relative_url }}" alt="GoogleAppExcellence" /></span>3월 22일의 GoogleAppExcellence에서는 이제부터 세미나에서 섹션을 교육적인거 하나 협력사 발표 하나 형식으로 바꿔서 체계적으로 세미나가 진행될것이라고 발표하였다. 협력사 발표 섹션은 Snow의 Foodie 성공기가 다뤄졌는데 "대충했는데 운이 좋아서 성공했어요" 라는 전혀 쓸모없는 내용이었기 때문에 따로 포스팅을 하지 않을 생각이고 교육적인 섹션에서 다뤄졌던 <b>Google Assistant</b> 에 대한 내용을 이번 포스팅에 다뤄볼 생각이다.</p>
 
 <div class="row">
 <div class="6u 12u$(mobile)">
