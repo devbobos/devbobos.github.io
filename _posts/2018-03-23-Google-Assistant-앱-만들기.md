@@ -47,7 +47,8 @@ GoogleAssistant는 봇이라고 생각하면 편한데, 사용자의 입력을 �
 
 ## 자신의 Google Assistant 앱 개발하기
 Google은 Google Assistant의 오픈 개발 플랫폼인 [Actions on Google](https://developers.google.com/actions/)을 지원하고 있다. Android의 Google Console처럼 [Actions Console](https://console.actions.google.com/)을 별도로 지원하고 있어서 Android를 마켓에 출시해본 개발자라면 익숙하게 사용할 수 있으며 Actions on Google 사이트에 Sample Code, Document, Community Program을 제공하고 있어 하나 둘씩 읽어보며 자신의 앱을 개발할 수 있다.
-<div class="12u 12u$(mobile)">
+<div class="row">
+<div class="6u 12u$(mobile)">
 <div class="item">
 <a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-23/14.jpg' | relative_url }}" alt="action on google"></a>
 <header>
