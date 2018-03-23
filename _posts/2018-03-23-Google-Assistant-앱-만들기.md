@@ -69,7 +69,7 @@ Google은 Google Assistant의 오픈 개발 플랫폼인 [Actions on Google](htt
 <div class="row">
 <div class="12u 6u$(mobile)">
 <div class="item">
-<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-23/15.jpg' | relative_url }}" alt="DialogFlow"></a>
+<a href="#" class="image fit"><img src="{{ 'assets/images/2018-03-23/15.png' | relative_url }}" alt="DialogFlow"></a>
 <header>
 <h3>DialogFlow</h3>
 </header>
