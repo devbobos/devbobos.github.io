@@ -3,9 +3,10 @@
   list-style: none;
   padding: 0;
   text-align: justify;
-  li {
-    display: inline-block;
-    margin: 0 12px 12px 0;
+  span {
+    background: #00aba9
+    color: #fff;
+    border-radius: .4em;
   }
 }
 #archives {
