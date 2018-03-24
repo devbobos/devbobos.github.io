@@ -1122,14 +1122,14 @@
       text-align: justify;
       a {
         background: #222629;
-        color: rgba(255, 255, 255, 0.5);
+        color: #fff;
         border-color: #222629;
         border-radius: 32px;
         border-top: 2px;
         border-width: 2px 6px;
         border-style: none solid;
         &:hover {
-    			color: #fff;
+    			color: rgba(255, 255, 255, 0.5);
     		}
       }
     }
