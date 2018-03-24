@@ -1123,8 +1123,9 @@
       a {
         background: #222629;
         color: #fff;
-        border: 16px;
-        border-radius: 16px;
+        border: 4px;
+        border-color: #222629;
+        border-radius: 32px;
         &:hover {
     			color: #E27689;
     		}
