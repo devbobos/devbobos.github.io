@@ -8,7 +8,7 @@ tags:
 Instant View는 사실 제작년에 나온 Telegram 신기능인데, 블로그도 열었을겸 한번 해보고 싶었다. 이게 무엇이냐 간단히 얘기를 하자면 페이지를 저장해놓고 빨리 불러오는 기능이라고 보면 되겠다.
 
 <div class="row">
-<div class="12u 6u$(mobile)">
+<div class="6u 12u$(mobile)">
 <div class="item">
 <a href="#" class="image fit"><img src="{{ 'https://instantview.telegram.org/file/811140347/1/iYFvGV-SW4o.184311/18c4a43fda01b92735' | absolute_url }}" alt="telegram instant view"></a>
 <header>
@@ -16,7 +16,7 @@ Instant View는 사실 제작년에 나온 Telegram 신기능인데, 블로그�
 </header>
 </div>
 </div>
-<div class="12u 6u$(mobile)">
+<div class="6u 12u$(mobile)">
 <div class="item">
 <a href="#" class="image fit"><img src="{{ 'https://instantview.telegram.org/file/811140915/2/bVBQHilQshY.84355/0ead38bc9a0136a38e' | absolute_url }}" alt="telegram instant view"></a>
 <header>
