@@ -15,8 +15,7 @@ description: 태그 별로 글을 정리하여 보여주는 페이지입니다.
 {% endfor %}
 </div>
 <hr>
-<br>
-<div id="archives">
+<div class="archives">
 {% for tag in site.tags %}
   <div class="archive-group">
     {% capture tag_name %}{{ tag | first }}{% endcapture %}
