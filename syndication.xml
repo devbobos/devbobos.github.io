@@ -16,6 +16,7 @@ layout: null
   <updated>{{- site.time | date_to_xmlschema -}}</updated>
   <!-- 웹사이트 정보 -->
   <link rel="site" href="{{- '/' | absolute_url -}}" title="{{- site.sitename -}}"/>
+  <link rel="mobile" href="{{- '/' | absolute_url -}}" title="{{- site.sitename -}}"/>
   <!-- 포스팅 정보 (최대 100개, 50MB 이하로 제한) -->
   {% for post in site.posts limit:100 %}
   <entry>
