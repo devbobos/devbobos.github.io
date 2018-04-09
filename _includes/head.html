@@ -108,10 +108,10 @@
     {% elsif flag == "Web" %}
     <meta property="og:image" content="{{- 'assets/images/tags/web.png' | absolute_url -}}" />
     <meta name="twitter:image" content="{{- 'assets/images/tags/web.png' | absolute_url -}}">
+    {% else %}
+    <meta name="twitter:image" content="{{- 'assets/images/favicons/favicon-200.png' | absolute_url -}}">
+    <meta property="og:image" content="{{- 'assets/images/favicons/favicon-200.png' | absolute_url -}}">
     {% endif %}
-  {% else %}
-  <meta name="twitter:image" content="{{- 'assets/images/favicons/favicon-200.png' | absolute_url -}}">
-  <meta property="og:image" content="{{- 'assets/images/favicons/favicon-200.png' | absolute_url -}}">
   {% endif %}
 
   <!-- Structured Data (Person) -->
