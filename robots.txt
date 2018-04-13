@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /samples/
+sitemap: https://devbobos.github.io/sitemap.xml
