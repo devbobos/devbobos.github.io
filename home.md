@@ -113,8 +113,14 @@ td.about-table-item p {
   }
 }
 </style>
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-<div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="ko_KR" data-type="horizontal" data-theme="light" data-vanity="devbobos"><a class="LI-simple-link" href='https://kr.linkedin.com/in/devbobos?trk=profile-badge'>Bokwang Son</a></div>
+<div class="aboutmecontainer">
+  <img src="assets/images/site/pic08.jpg" alt="portrait" style="width: 100%; height: auto;">
+  <div class="aboutmebottomleft">
+    <h2 style="text-align: left; color: white; font-weight: 600;">손보광</h2>
+    <p style="text-align: left; color: white;">Mobile App Developer</p>
+  </div>
+</div>
+<br>
 ## 학력사항
 <div class="table-wrapper">
   <table>
