@@ -114,7 +114,7 @@ td.about-table-item p {
 }
 </style>
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-<div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="ko_KR" data-type="horizontal" data-theme="light" data-vanity="bokwang-son-a1173a15b"><a class="LI-simple-link" href='https://kr.linkedin.com/in/bokwang-son-a1173a15b?trk=profile-badge'>Bokwang Son</a></div>
+<div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="ko_KR" data-type="horizontal" data-theme="light" data-vanity="devbobos"><a class="LI-simple-link" href='https://kr.linkedin.com/in/devbobos?trk=profile-badge'>Bokwang Son</a></div>
 ## 학력사항
 <div class="table-wrapper">
   <table>
