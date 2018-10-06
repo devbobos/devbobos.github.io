@@ -158,7 +158,7 @@ td.about-table-item p {
       </td>
     </tr>
     <tr>
-      <td><p>2016.05 ~ 현재</p></td>
+      <td><p>2018.05 ~ 현재</p></td>
       <td colspan="2">
         <strong>휴머스온</strong>
         <ul>
