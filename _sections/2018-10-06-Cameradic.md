@@ -2,20 +2,25 @@
 title: Cameradic
 subtitle: MachineLearning/Tensorflow/Android
 icon: fa-asterisk
-layout: post
 order: 1
 ---
 <style>
-  .youtubeWrap {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
+#main {
+  > section {
+    text-align: left;
   }
-  .youtubeWrap iframe {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-  }
+}
+
+.youtubeWrap {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+.youtubeWrap iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
 </style>
 
 <div class="youtubeWrap"><iframe width="560" height="315" src="https://www.youtube.com/embed/eSzmsdFhwlE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
