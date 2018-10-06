@@ -34,12 +34,7 @@
         {%- endif -%}
       </h2>
       {%- if include.subtitle -%}
-        {% assign subtitles = include.subtitle | split: '/' %}
-        {% for title in subtitles %}
-        <p>
-          #{{ title }} 
-        </p>
-        {% endfor %}
+        <p>{{- include.subtitle -}}</p>
       {%- endif -%}
 		</header>
 	{%- endcapture -%}
