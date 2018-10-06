@@ -1,6 +1,6 @@
 ---
 title: Cameradic
-subtitle: #MachineLearning #Tensorflow #Android
+subtitle: MachineLearning/Tensorflow/Android
 icon: fa-asterisk
 layout: post
 order: 1

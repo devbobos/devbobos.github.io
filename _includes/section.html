@@ -33,7 +33,15 @@
           {{- include.auto-header -}}
         {%- endif -%}
       </h2>
-      {%- if include.subtitle -%}<p>{{- include.subtitle -}}</p>{%- endif -%}
+      {%- if include.subtitle -%}
+        {% assign subtitle = include.subtitle %}
+        {% assign subtitles = subtitle | split: '/' %}
+        {% for title in subtitles %}
+        <p>
+          #{{- title -}}
+        </p>
+        {% endfor %}
+      {%- endif -%}
 		</header>
 	{%- endcapture -%}
 {%- endif -%}
