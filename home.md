@@ -148,12 +148,21 @@ td.about-table-item p {
       <td colspan="2"><p><strong>Delimon</strong> 프론트엔드 개발 (Laravel)</p></td>
     </tr>
     <tr>
-      <td><p>2016.07 ~ 현재</p></td>
+      <td><p>2016.07 ~ 2018.04</p></td>
       <td colspan="2">
         <strong>유수소프트</strong>
         <ul>
           <li>기획 및 Android, iOS 개발</li>
           <li>Server 및 Database 설계</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><p>2016.05 ~ 현재</p></td>
+      <td colspan="2">
+        <strong>휴머스온</strong>
+        <ul>
+          <li>Android, iOS 담당</li>
         </ul>
       </td>
     </tr>
