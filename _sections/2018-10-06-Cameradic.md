@@ -1,6 +1,6 @@
 ---
 title: Cameradic
-subtitle: MachineLearning/Tensorflow/Android
+subtitle: #MachineLearning #Tensorflow #Android #공개SW개발자대회
 icon: fa-asterisk
 order: 1
 ---
