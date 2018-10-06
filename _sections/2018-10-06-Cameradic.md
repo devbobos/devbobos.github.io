@@ -5,21 +5,18 @@ layout: post
 order: 1
 ---
 <style>
-.youtube{
-	position : relative;
-	width : 100%;
-	height : 0;
-}
-
-.video{
-	position : absolute;
-	top : 0;
-	left : 0;
-	width : 100%;
-	height : 100%;
-}
+  .youtubeWrap {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+  }
+  .youtubeWrap iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
 </style>
-<div class="youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/eSzmsdFhwlE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="video"></iframe></div>
+<div class="youtubeWrap"><iframe width="560" height="315" src="https://www.youtube.com/embed/eSzmsdFhwlE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 
 머신러닝을 이용한 촬영식 사전, 2018년 제12회 공개SW 개발자대회 출품작
 
