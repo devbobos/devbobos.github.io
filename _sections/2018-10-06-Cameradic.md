@@ -18,10 +18,7 @@ order: 1
   height: 100%;
   text-align: left;
 }
-p {
-  text-align: left;
-}
-ul {
+.container {
   text-align: left;
 }
 
