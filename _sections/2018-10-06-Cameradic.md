@@ -5,22 +5,26 @@ icon: fa-asterisk
 order: 1
 ---
 <style>
-#main {
-  > section {
-    text-align: left;
-  }
-}
 
 .youtubeWrap {
   position: relative;
   width: 100%;
   padding-bottom: 56.25%;
+  text-align: left;
 }
 .youtubeWrap iframe {
   position: absolute;
   width: 100%;
   height: 100%;
+  text-align: left;
 }
+p {
+  text-align: left;
+}
+ul {
+  text-align: left;
+}
+
 </style>
 
 <div class="youtubeWrap"><iframe width="560" height="315" src="https://www.youtube.com/embed/eSzmsdFhwlE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
