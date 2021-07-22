@@ -5,4 +5,3 @@
 ## 사용한 도구
 Jekyll [#](https://jekyllrb.com)<br>
 Prologue Theme [#](https://github.com/chrisbobbe/jekyll-theme-prologue)<br>
-웰컴 투 냥톡월드 [#](https://e.kakao.com/t/welcome-to-nyang-talk-world)<br>
